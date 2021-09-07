@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Practicas.c
+ Author      : Gonzalez Ricardo 1-F
+ Ejercicio 3-3:
+ Crear una función que pida el ingreso de un entero y lo retorne.
+
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>//biblioteca
+#include "biblioteca.h"
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	
+	int edad;
+	edad = PedirEntero("ingrese edad ", 18, 99);
+	printf("la edad es: %d", edad);
+	
+	return EXIT_SUCCESS;
+}
+

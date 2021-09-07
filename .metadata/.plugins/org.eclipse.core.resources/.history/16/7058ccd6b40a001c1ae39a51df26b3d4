@@ -1,0 +1,46 @@
+/*
+ ============================================================================
+ Name        : E-4-1.c
+ Author      : Gonzalez Ricardo 1-F
+ Ejercicio 4-1:
+ Realizar un programa EN EL MAIN que permita calcular
+ y mostrar el factorial de un número.
+ Por ejemplo:
+ 5! = 5*4*3*2*1 = 120
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int Factorial(int);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+	int numeroIngresado;
+	sprintf("ingrese numero a factorizar");
+	scanf("%d", numeroIngresado);
+	numeroIngresado = Factorial(numeroIngresado);
+	printf("factorizacion: %d", numeroIngresado);
+
+	return EXIT_SUCCESS;
+}
+int Factorial(int unNumero)
+{
+	int i = unNumero;
+	int multiplicacion;
+
+	multiplicacion = unNumero;
+
+	for (i; i > 1; i--)
+	{
+		multiplicacion = multiplicacion * i;
+
+	}
+
+	return multiplicacion;
+}
+

@@ -1,0 +1,72 @@
+/*
+ * tp1blibliotecaP.c
+ *
+ *  Created on: 1 sep. 2021
+ *      Author: gonza
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+#include "tp1bibliotecaP.h"
+
+int ValidarNumero(char numero[])
+{
+
+	for (i = 0; i < strlen(numero); i++)
+	{
+		if (!(isdigit(numero[i])))
+		{
+			printf("ingrese solo numeros");
+
+			return 0;
+		}
+	}
+
+	return 1;
+}
+
+int Sumar1(int numeroUno, int numeroDos) //sumar
+{
+	int suma;
+	suma = numeroUno + numeroDos;
+
+	return suma;
+}
+int calcularResta(int numUNO, int numDOS)  // restar
+{
+	int resultadoResta;
+	resultadoResta = numUNO - numDOS;
+	return resultadoResta;
+}
+
+int calcularMultiplicacion(int numUNO, int numDOS)   // multiplicar
+{
+	int resultadoMultip;
+	resultadoMultip = numUNO * numDOS;
+	return resultadoMultip;
+}
+
+float calcularDiv(int numUNO, int numDOS)    // dividir
+{
+	float division;
+	if (numDOS != 0)
+	{
+		division = (float) numUNO / numDOS;
+	}
+	else
+	{
+		division = 'N';
+	}
+	return division;
+}
+
+int calcularFactorial(int numero)    // factorial
+{
+	int factorial = 1;
+	for (int i = 0; i < numero; i++)
+	{
+		factorial = factorial * (i + 1);
+	}
+	return factorial;
+}

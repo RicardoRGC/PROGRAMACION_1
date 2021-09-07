@@ -1,0 +1,25 @@
+/*
+ ============================================================================
+ Name        : E-3-3.c
+ Author      : Gonzalez Ricardo 1-F
+ Ejercicio 3-3:
+ Crear una función que pida el ingreso de un entero y lo retorne.
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int RetomarEntero(int);
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+	return EXIT_SUCCESS;
+}
+int RetomarEntero(int entero)
+{
+	int Numero;
+	Numero = entero;
+	return Numero;
+}

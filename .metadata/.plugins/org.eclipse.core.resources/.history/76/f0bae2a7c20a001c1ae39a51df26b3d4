@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : Practicas.c
+ Author      : Gonzalez Ricardo 1-F
+
+
+
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>//biblioteca
+#include "biblioteca.h"
+int CalcularFACtorial(int);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	
+	int opcion;
+	
+do
+{	
+
+}
+while()
+
+return EXIT_SUCCESS;
+}
+

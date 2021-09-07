@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : E-3-1.c
+ Author      : Gonzalez Ricardo 1-F
+ Ejercicio 3-1:
+ Crear una función que muestre por pantalla el número flotante  que recibe como parámetro.
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+void numeroFlotante(float);
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+	float numeroFloat;
+	numeroFloat = 10.8;
+
+	numeroFloat = numeroFlotante(numeroFloat);
+
+	printf("numero float: %.2f", numeroFloat);
+	return EXIT_SUCCESS;
+}
+void numeroFlotante(float numero)
+{
+
+}

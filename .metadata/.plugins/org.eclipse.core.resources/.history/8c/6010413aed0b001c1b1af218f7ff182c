@@ -1,0 +1,35 @@
+/*
+ * tp1blibliotecaP.c
+ *
+ *  Created on: 1 sep. 2021
+ *      Author: gonza
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include "tp1bibliotecaP.h"
+/// @param mensaje para ingresar el numero
+/// @param min
+/// @param max
+/// @return numero ingresado validado
+int ValidarNumero(char mensaje[], int min, int max)
+{
+	int unNumero;
+	printf("%s ", mensaje);
+	printf("riky");
+	scanf("%d", &unNumero);
+	while (unNumero < min || unNumero > max)
+	{
+		printf("ERROR %s  ", mensaje);
+		scanf("%d", &unNumero);
+	}
+
+	return unNumero;
+}
+
+int Sumar1(int numeroUno, int numeroDos) //sumar
+{
+	int suma;
+	suma = numeroUno + numeroDos;
+
+	return suma;

@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : Practicas.c
+ Author      : Gonzalez Ricardo 1-F
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int PedirEntero(void);
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+	return EXIT_SUCCESS;
+}
+
+int PedirEntero(void)
+{
+	int unNumero;
+	printf("ingresar numero: ");
+	scanf("%d", &unNumero);
+
+}

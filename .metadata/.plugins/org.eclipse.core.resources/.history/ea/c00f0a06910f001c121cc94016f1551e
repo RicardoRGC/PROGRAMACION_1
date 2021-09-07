@@ -1,0 +1,54 @@
+/*
+ ============================================================================
+ Name        : 6_9.c
+ Author      : Gonzalez Ricardo 1-F
+ Version     :
+ Copyright   :
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+// arrays
+void funcion(int[]);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int numeros[5];
+	int i;
+	int acumulador;
+	int maximo;
+	int indiceMAX;
+	acumulador = 0;
+	//cargar un vector
+	//carga secuencial
+	for (i = 0; i < 5; i++)
+	{
+		printf("ingrese numeros:");
+		scanf("%d", &numeros[i]);
+		/*
+		 if(i==0 || numeros[i]>maximo)
+		 {
+		 maximo=numeros[i]
+
+		 }
+		 */
+	}
+	funcion(numeros[5]);
+
+	//printf("maximo es %d\n",maximo);
+
+	puts(""); /* prints  */
+	return EXIT_SUCCESS;
+}
+void funcion( numeros[])
+{
+	for (i = 0; i < 5; i++)
+	{
+		printf("%d\n", numeros[i]);
+
+	}
+}
+

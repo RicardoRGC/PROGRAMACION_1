@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;EJ2-2/src/TPS.c&apos; to &apos;EJ2-2.c&apos;" description="Rename resource &apos;TPS.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/TPS.c" name="EJ2-2.c" stamp="1629841355303" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;tp/Debug/EJ2-2.exe&apos; to &apos;tp.exe&apos;" description="Rename resource &apos;EJ2-2.exe&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/EJ2-2.exe" name="tp.exe" stamp="1629841984018" updateReferences="true"/>
+</session>

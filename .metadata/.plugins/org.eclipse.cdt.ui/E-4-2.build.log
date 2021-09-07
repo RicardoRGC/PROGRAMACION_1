@@ -1,0 +1,12 @@
+18:59:22 **** Incremental Build of configuration Debug for project E-4-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o biblioteca.o "..\\biblioteca.c" 
+..\biblioteca.c: In function 'celsius_A_fahrenheit':
+..\biblioteca.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-4-2.o "..\\E-4-2.c" 
+gcc -o E-4-2.exe E-4-2.o biblioteca.o 
+
+18:59:23 Build Finished. 0 errors, 1 warnings. (took 919ms)
+

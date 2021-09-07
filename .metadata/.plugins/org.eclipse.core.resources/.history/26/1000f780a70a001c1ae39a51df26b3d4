@@ -1,0 +1,41 @@
+/*
+ ============================================================================
+ Name        : Practicas.c
+ Author      : Gonzalez Ricardo 1-F
+ Ejercicio 3-3:
+ Crear una función que pida el ingreso de un entero y lo retorne.
+
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int PedirEntero(charmensaje[]int, int);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+
+	int edad;
+	edad = PedirEntero("ingrese edad ", 18, 99);
+	printf("la edad es: %d", edad);
+
+	return EXIT_SUCCESS;
+}
+
+int PedirEntero(char mensaje[]int min, int max)
+{
+	int unNumero;
+	printf("%s ",mensaje );
+	scanf("%d", &unNumero);
+	while(unNumero<min||unNumero>max)
+	{
+		printf("%s ",mensaje );
+		scanf("%d", &unNumero);
+	}
+
+	return unNumero;
+}

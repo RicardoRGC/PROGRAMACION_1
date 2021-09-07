@@ -1,0 +1,66 @@
+/*
+ ============================================================================
+ Name        : Practicas.c
+ Author      : Gonzalez Ricardo 1-F
+
+
+
+
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>//biblioteca
+
+int main(void)
+{
+
+	setbuf(stdout, NULL);
+
+	int opcion;
+	int numeroUno;
+	int flagOperandoUno;
+	flagOperandoUno = 1
+
+	do
+	{
+		if (flagOperandoUno == 1)
+		{
+			printf("1. Ingresar 1er operando A=x\n");
+		}
+		else
+		{
+			printf("1. Ingresar 1er operando A=x\n");
+		}
+
+		printf("2. Baja\n");
+		printf("3. Modificacion\n");
+		printf("4. Salir\n");
+		printf("Ingrese una opcion: ");
+		scanf("%d", &opcion);
+		switch (opcion)
+		//int - char
+		{
+		case 1:
+			printf("\n Ingrese el primer operando: ");
+			scanf("%d", &numeroUno);
+			break;
+
+		case 2:
+			printf("Estoy dando de baja\n");
+			break;
+		case 3:
+			printf("Estoy modificando\n");
+			break;
+		case 4:
+			printf("Gracias por usar gerapp\n");
+			break;
+		}
+
+	}
+	while (opcion != 4);
+
+	return 0;
+}
+

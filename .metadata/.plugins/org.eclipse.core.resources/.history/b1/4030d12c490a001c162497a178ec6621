@@ -1,0 +1,53 @@
+/*
+ ============================================================================
+ Name        : e-3-55.c
+ Author      : Gonzalez Ricardo 1-F
+ Version     :
+ Copyright   :
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int Sumar1(int, int);
+int Sumar2(void);
+void Sumar3(int, int);
+void Sumar4(void);
+
+int main(void)
+{
+	setbuf(stdout, NULL);
+	int sumaUno;
+	sumaUno = Sumar1(1, 2);
+	printf("suma1 : %d", sumaUno);
+
+int
+
+return EXIT_SUCCESS;
+}
+int Sumar1(int numeroUno, int numeroDos)
+{
+int suma;
+suma = numeroUno + numeroDos;
+
+return suma;
+}
+int Sumar2(void)
+{
+int numeroUno;
+int numeroDos;
+int suma2;
+
+printf("ingrese numero 1");
+scanf("%d", numeroUos);
+
+printf("ingrese numero 2 ");
+scanf("%d", numeroDos);
+
+suma2 = numeroDos + numeroUno;
+
+return suma2;
+
+}
+

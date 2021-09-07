@@ -1,0 +1,239 @@
+08:35:35 **** Rebuild of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+gcc -o E-5-1.exe E-5-1.o 
+Info: Nothing to build for E-5-1
+08:36:32 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+gcc -o E-5-1.exe E-5-1.o 
+08:40:14 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+..\E-5-1.c: In function 'main':
+..\E-5-1.c:25:6: warning: variable 'sumaNumeros' set but not used [-Wunused-but-set-variable]
+  int sumaNumeros;
+      ^~~~~~~~~~~
+..\E-5-1.c: In function 'SumarNumeros':
+..\E-5-1.c:40:3: error: 'sumaNumeros' undeclared (first use in this function)
+   sumaNumeros = sumaNumeros + p[i];
+   ^~~~~~~~~~~
+..\E-5-1.c:40:3: note: each undeclared identifier is reported only once for each function it appears in
+08:40:17 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+..\E-5-1.c: In function 'main':
+..\E-5-1.c:25:6: warning: variable 'sumaNumeros' set but not used [-Wunused-but-set-variable]
+  int sumaNumeros;
+      ^~~~~~~~~~~
+..\E-5-1.c: In function 'SumarNumeros':
+..\E-5-1.c:40:3: error: 'sumaNumeros' undeclared (first use in this function)
+   sumaNumeros = sumaNumeros + p[i];
+   ^~~~~~~~~~~
+..\E-5-1.c:40:3: note: each undeclared identifier is reported only once for each function it appears in
+08:40:59 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+gcc -o E-5-1.exe E-5-1.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-5-1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+08:41:04 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -o E-5-1.exe E-5-1.o 
+Info: Nothing to build for E-5-1
+08:45:10 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+..\E-5-1.c: In function 'main':
+..\E-5-1.c:26:2: error: too few arguments to function 'PedirNumeros'
+  PedirNumeros(numeros);
+  ^~~~~~~~~~~~
+..\E-5-1.c:18:6: note: declared here
+ void PedirNumeros(int p[], int);
+      ^~~~~~~~~~~~
+..\E-5-1.c:27:2: error: too few arguments to function 'MostrarNumeros'
+  MostrarNumeros(numeros);
+  ^~~~~~~~~~~~~~
+..\E-5-1.c:17:6: note: declared here
+ void MostrarNumeros(int p[], int);
+      ^~~~~~~~~~~~~~
+..\E-5-1.c:28:2: error: too few arguments to function 'SumarNumeros'
+  SumarNumeros(numeros);
+  ^~~~~~~~~~~~
+..\E-5-1.c:19:6: note: declared here
+ void SumarNumeros(int p[], int);
+      ^~~~~~~~~~~~
+..\E-5-1.c: At top level:
+..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:32:27: note: in expansion of macro 'T'
+ void SumarNumeros(int p[],T)
+                           ^
+..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:45:27: note: in expansion of macro 'T'
+ void PedirNumeros(int p[],T)
+                           ^
+..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:57:29: note: in expansion of macro 'T'
+ void MostrarNumeros(int p[],T)
+                             ^
+08:46:49 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+..\E-5-1.c:15:15: error: expected ')' before numeric constant
+ #define int T 5
+               ^
+..\E-5-1.c:17:21: note: in expansion of macro 'int'
+ void MostrarNumeros(int p[], int);
+                     ^~~
+..\E-5-1.c:15:15: error: expected ')' before numeric constant
+ #define int T 5
+               ^
+..\E-5-1.c:18:19: note: in expansion of macro 'int'
+ void PedirNumeros(int p[], int);
+                   ^~~
+..\E-5-1.c:15:15: error: expected ')' before numeric constant
+ #define int T 5
+               ^
+..\E-5-1.c:19:19: note: in expansion of macro 'int'
+ void SumarNumeros(int p[], int);
+                   ^~~
+..\E-5-1.c:15:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
+ #define int T 5
+               ^
+..\E-5-1.c:21:1: note: in expansion of macro 'int'
+ int main(void)
+ ^~~
+..\E-5-1.c:15:15: error: expected ')' before numeric constant
+ #define int T 5
+               ^
+..\E-5-1.c:32:19: note: in expansion of macro 'int'
+ void SumarNumeros(int p[],T)
+                   ^~~
+..\E-5-1.c:15:15: error: expected ')' before numeric constant
+ #define int T 5
+               ^
+..\E-5-1.c:45:19: note: in expansion of macro 'int'
+ void PedirNumeros(int p[],T)
+                   ^~~
+..\E-5-1.c:15:15: error: expected ')' before numeric constant
+ #define int T 5
+               ^
+..\E-5-1.c:57:21: note: in expansion of macro 'int'
+ void MostrarNumeros(int p[],T)
+                     ^~~
+08:47:23 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:17:34: note: in expansion of macro 'T'
+ void MostrarNumeros(int p[], int T);
+                                  ^
+..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:18:32: note: in expansion of macro 'T'
+ void PedirNumeros(int p[], int T);
+                                ^
+..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:19:32: note: in expansion of macro 'T'
+ void SumarNumeros(int p[], int T);
+                                ^
+..\E-5-1.c: In function 'main':
+..\E-5-1.c:26:2: warning: implicit declaration of function 'PedirNumeros' [-Wimplicit-function-declaration]
+  PedirNumeros(numeros);
+  ^~~~~~~~~~~~
+..\E-5-1.c:27:2: warning: implicit declaration of function 'MostrarNumeros' [-Wimplicit-function-declaration]
+  MostrarNumeros(numeros);
+  ^~~~~~~~~~~~~~
+..\E-5-1.c:28:2: warning: implicit declaration of function 'SumarNumeros' [-Wimplicit-function-declaration]
+  SumarNumeros(numeros);
+  ^~~~~~~~~~~~
+..\E-5-1.c: At top level:
+..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:32:27: note: in expansion of macro 'T'
+ void SumarNumeros(int p[],T)
+                           ^
+..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:45:27: note: in expansion of macro 'T'
+ void PedirNumeros(int p[],T)
+                           ^
+..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:57:29: note: in expansion of macro 'T'
+ void MostrarNumeros(int p[],T)
+                             ^
+08:53:59 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+..\E-5-1.c: In function 'main':
+..\E-5-1.c:26:2: error: too few arguments to function 'PedirNumeros'
+  PedirNumeros(numeros);
+  ^~~~~~~~~~~~
+..\E-5-1.c:18:6: note: declared here
+ void PedirNumeros(int p[], int);
+      ^~~~~~~~~~~~
+..\E-5-1.c:27:2: error: too few arguments to function 'MostrarNumeros'
+  MostrarNumeros(numeros);
+  ^~~~~~~~~~~~~~
+..\E-5-1.c:17:6: note: declared here
+ void MostrarNumeros(int p[], int);
+      ^~~~~~~~~~~~~~
+..\E-5-1.c:28:2: error: too few arguments to function 'SumarNumeros'
+  SumarNumeros(numeros);
+  ^~~~~~~~~~~~
+..\E-5-1.c:19:6: note: declared here
+ void SumarNumeros(int p[], int);
+      ^~~~~~~~~~~~
+..\E-5-1.c: At top level:
+..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:32:31: note: in expansion of macro 'T'
+ void SumarNumeros(int p[],int T)
+                               ^
+..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:45:31: note: in expansion of macro 'T'
+ void PedirNumeros(int p[],int T)
+                               ^
+..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:57:33: note: in expansion of macro 'T'
+ void MostrarNumeros(int p[],int T)
+                                 ^
+08:55:23 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
+ #define T 5
+           ^
+..\E-5-1.c:45:31: note: in expansion of macro 'T'
+ void PedirNumeros(int p[],int T)
+                               ^
+08:55:38 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+gcc -o E-5-1.exe E-5-1.o 
+Info: Nothing to build for E-5-1
+08:55:52 **** Incremental Build of configuration Debug for project E-5-1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
+gcc -o E-5-1.exe E-5-1.o 
+Info: Nothing to build for E-5-1

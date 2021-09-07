@@ -1,0 +1,25 @@
+/*
+ * tp1blibliotecaP.c
+ *
+ *  Created on: 1 sep. 2021
+ *      Author: gonza
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include "tp1bibliotecaP.h"
+
+int ValidarNumero(char mensaje[], int min, int max)
+{
+	int unNumero;
+	printf("%s ", mensaje);
+	printf("riky");
+	scanf("%d", &unNumero);
+	while (unNumero < min || unNumero > max || isdigit(unNumero) == 0)
+	{
+		printf("%s ", mensaje);
+		scanf("%d", &unNumero);
+	}
+
+	return unNumero;
+}

@@ -1,0 +1,13 @@
+/*
+ * tp1bibliotecaP.h
+ *
+ *  Created on: 1 sep. 2021
+ *      Author: gonza
+ */
+
+#ifndef TP1BIBLIOTECAP_H_
+#define TP1BIBLIOTECAP_H_
+int ValidarNumero(char mensaje[], int min, int max);
+int Sumar1(int, int);
+
+#endif /* TP1BIBLIOTECAP_H_ */
