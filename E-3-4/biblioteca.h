@@ -14,5 +14,6 @@
 /// @param max el valor maximo del rango de validacion
 /// @return  el numero ingresado validado
 int PedirEntero(char mensaje[], int min, int max);
+int ValidarEntero(int, int, int);
 
 #endif /* BIBLIOTECA_H_ */

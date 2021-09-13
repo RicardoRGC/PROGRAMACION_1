@@ -9,7 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void)
+{
 	setbuf(stdout, NULL);
 	int numeros;
 	int contadorNumeros;
@@ -32,7 +33,7 @@ int main(void) {
 			contadorPositivos++;
 		}
 		acumuladorNumeros += numeros;
-		
+
 		contadorNumeros++;
 
 //fin
@@ -49,8 +50,29 @@ int main(void) {
 	printf("promedio de numeros: %.2f %%\n", Promedio);
 	//%.2f agrega solo 2 decimales;
 
-
-
 	puts(""); /* prints setbuf(stdout, NULL); */
 	return EXIT_SUCCESS;
+}
+/// @param pares
+/// @param tam
+/// @return
+/// para usar punteros y retornar valor correcto
+///
+sumadepares
+int sumadepares(int numes, int tam int*suma)
+{
+	par=0
+
+	// paridad devuelve 1 y 0;
+	/*
+	 if(determinarparidad==1)
+	 {
+	 acumulador+= numes[i]
+	 par=1
+	 }
+	 */
+	// pero si no pongo ningun par
+	*suma = acumulador
+
+	return par=1;
 }

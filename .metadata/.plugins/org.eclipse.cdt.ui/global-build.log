@@ -1,239 +1,410 @@
-08:35:35 **** Rebuild of configuration Debug for project E-5-1 ****
+21:50:55 **** Rebuild of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-gcc -o E-5-1.exe E-5-1.o 
-Info: Nothing to build for E-5-1
-08:36:32 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+10:18:38 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-gcc -o E-5-1.exe E-5-1.o 
-08:40:14 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+10:33:03 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-..\E-5-1.c: In function 'main':
-..\E-5-1.c:25:6: warning: variable 'sumaNumeros' set but not used [-Wunused-but-set-variable]
-  int sumaNumeros;
-      ^~~~~~~~~~~
-..\E-5-1.c: In function 'SumarNumeros':
-..\E-5-1.c:40:3: error: 'sumaNumeros' undeclared (first use in this function)
-   sumaNumeros = sumaNumeros + p[i];
-   ^~~~~~~~~~~
-..\E-5-1.c:40:3: note: each undeclared identifier is reported only once for each function it appears in
-08:40:17 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:32:19: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+  printf("%d- %d- %d -", numeros[0], numeros[1]);
+                   ^
+gcc -o E-5-3.exe E-5-3.o 
+10:33:18 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-..\E-5-1.c: In function 'main':
-..\E-5-1.c:25:6: warning: variable 'sumaNumeros' set but not used [-Wunused-but-set-variable]
-  int sumaNumeros;
-      ^~~~~~~~~~~
-..\E-5-1.c: In function 'SumarNumeros':
-..\E-5-1.c:40:3: error: 'sumaNumeros' undeclared (first use in this function)
-   sumaNumeros = sumaNumeros + p[i];
-   ^~~~~~~~~~~
-..\E-5-1.c:40:3: note: each undeclared identifier is reported only once for each function it appears in
-08:40:59 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+10:44:32 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-gcc -o E-5-1.exe E-5-1.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-5-1.exe: Permission denied
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+10:45:32 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+10:46:15 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+10:46:27 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+16:15:58 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:33:2: error: too few arguments to function 'CargarVector'
+  CargarVector("ingrese numero", numeros, T);
+  ^~~~~~~~~~~~
+..\E-5-3.c:21:6: note: declared here
+ void CargarVector(char mensaje[], int p[], int tam, int min, int max);
+      ^~~~~~~~~~~~
+16:18:01 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+Info: Nothing to build for E-5-3
+16:19:37 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+Info: Nothing to build for E-5-3
+16:21:09 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+16:22:27 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:33:45: error: 'min' undeclared (first use in this function)
+  CargarVector("ingrese numero", numeros, T, min, max);
+                                             ^~~
+..\E-5-3.c:33:45: note: each undeclared identifier is reported only once for each function it appears in
+..\E-5-3.c:33:50: error: 'max' undeclared (first use in this function)
+  CargarVector("ingrese numero", numeros, T, min, max);
+                                                  ^~~
+16:24:08 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'CargarVector':
+..\E-5-3.c:75:33: error: 'min' undeclared (first use in this function)
+   numero = PedirEntero(mensaje, min, max);
+                                 ^~~
+..\E-5-3.c:75:33: note: each undeclared identifier is reported only once for each function it appears in
+..\E-5-3.c:75:38: error: 'max' undeclared (first use in this function)
+   numero = PedirEntero(mensaje, min, max);
+                                      ^~~
+16:24:50 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'CargarVector':
+..\E-5-3.c:75:12: error: too few arguments to function 'PedirEntero'
+   numero = PedirEntero(mensaje);
+            ^~~~~~~~~~~
+..\E-5-3.c:20:5: note: declared here
+ int PedirEntero(char mensaje[], int min, int max);
+     ^~~~~~~~~~~
+..\E-5-3.c:76:14: error: too few arguments to function 'PedirEntero'
+   posicion = PedirEntero("pedir posicion");
+              ^~~~~~~~~~~
+..\E-5-3.c:20:5: note: declared here
+ int PedirEntero(char mensaje[], int min, int max);
+     ^~~~~~~~~~~
+16:25:16 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+16:25:23 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+Info: Nothing to build for E-5-3
+Info: Nothing to build for E-5-3
+Info: Nothing to build for E-5-3
+16:26:39 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+17:08:04 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:35:23: warning: implicit declaration of function 'acumuladorPositivosNegativos' [-Wimplicit-function-declaration]
+  acumuladorPositivo = acumuladorPositivosNegativos(numeros, T);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\E-5-3.c:37:2: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
+  prinf("sma postivos %d", acumuladorPositivo);
+  ^~~~~
+..\E-5-3.c: In function 'acumuladorPositivosNegativos':
+..\E-5-3.c:64:24: warning: implicit declaration of function 'DeterminarSigno' [-Wimplicit-function-declaration]
+   positivosNegativos = DeterminarSigno(positivosNegativos);
+                        ^~~~~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+E-5-3.o: In function `main':
+C:\Users\gonza\eclipse-workspace\E-5-3\Debug/../E-5-3.c:37: undefined reference to `prinf'
 collect2.exe: error: ld returned 1 exit status
-08:41:04 **** Incremental Build of configuration Debug for project E-5-1 ****
+17:08:15 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -o E-5-1.exe E-5-1.o 
-Info: Nothing to build for E-5-1
-08:45:10 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:35:23: warning: implicit declaration of function 'acumuladorPositivosNegativos' [-Wimplicit-function-declaration]
+  acumuladorPositivo = acumuladorPositivosNegativos(numeros, T);
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\E-5-3.c: In function 'acumuladorPositivosNegativos':
+..\E-5-3.c:64:24: warning: implicit declaration of function 'DeterminarSigno' [-Wimplicit-function-declaration]
+   positivosNegativos = DeterminarSigno(positivosNegativos);
+                        ^~~~~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+17:09:16 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-..\E-5-1.c: In function 'main':
-..\E-5-1.c:26:2: error: too few arguments to function 'PedirNumeros'
-  PedirNumeros(numeros);
-  ^~~~~~~~~~~~
-..\E-5-1.c:18:6: note: declared here
- void PedirNumeros(int p[], int);
-      ^~~~~~~~~~~~
-..\E-5-1.c:27:2: error: too few arguments to function 'MostrarNumeros'
-  MostrarNumeros(numeros);
-  ^~~~~~~~~~~~~~
-..\E-5-1.c:17:6: note: declared here
- void MostrarNumeros(int p[], int);
-      ^~~~~~~~~~~~~~
-..\E-5-1.c:28:2: error: too few arguments to function 'SumarNumeros'
-  SumarNumeros(numeros);
-  ^~~~~~~~~~~~
-..\E-5-1.c:19:6: note: declared here
- void SumarNumeros(int p[], int);
-      ^~~~~~~~~~~~
-..\E-5-1.c: At top level:
-..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:32:27: note: in expansion of macro 'T'
- void SumarNumeros(int p[],T)
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+Info: Nothing to build for E-5-3
+17:10:41 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+17:18:23 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:40:22: warning: implicit declaration of function 'contadorPositivosNegativos' [-Wimplicit-function-declaration]
+  contadorPositivos = contadorPositivosNegativos(numeros, T);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+17:18:37 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:40:22: warning: implicit declaration of function 'contadorPositivosNegativos' [-Wimplicit-function-declaration]
+  contadorPositivos = contadorPositivosNegativos(numeros, T);
+                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-5-3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:19:05 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-5-3.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:19:09 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -o E-5-3.exe E-5-3.o 
+17:20:43 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:44:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("promedio positivos %d", promediopositivos);
+                              ^
+gcc -o E-5-3.exe E-5-3.o 
+17:21:05 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+09:30:57 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c:27:27: error: unknown type name 'p'
+ int numeroMinimoNegativo( p[], tam);
                            ^
-..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:45:27: note: in expansion of macro 'T'
- void PedirNumeros(int p[],T)
+..\E-5-3.c:27:32: error: unknown type name 'tam'
+ int numeroMinimoNegativo( p[], tam);
+                                ^~~
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:47:25: warning: implicit declaration of function 'numeroMinimo' [-Wimplicit-function-declaration]
+  numeroMinimoNegativo = numeroMinimo(numeros, T);
+                         ^~~~~~~~~~~~
+..\E-5-3.c: At top level:
+..\E-5-3.c:62:27: error: unknown type name 'p'
+ int numeroMinimoNegativo( p[], tam)
                            ^
-..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:57:29: note: in expansion of macro 'T'
- void MostrarNumeros(int p[],T)
-                             ^
-08:46:49 **** Incremental Build of configuration Debug for project E-5-1 ****
+..\E-5-3.c:62:32: error: unknown type name 'tam'
+ int numeroMinimoNegativo( p[], tam)
+                                ^~~
+..\E-5-3.c:78:19: error: unknown type name 'p'
+ int numeroMinimo( p[], tam)
+                   ^
+..\E-5-3.c:78:24: error: unknown type name 'tam'
+ int numeroMinimo( p[], tam)
+                        ^~~
+09:33:09 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-..\E-5-1.c:15:15: error: expected ')' before numeric constant
- #define int T 5
-               ^
-..\E-5-1.c:17:21: note: in expansion of macro 'int'
- void MostrarNumeros(int p[], int);
-                     ^~~
-..\E-5-1.c:15:15: error: expected ')' before numeric constant
- #define int T 5
-               ^
-..\E-5-1.c:18:19: note: in expansion of macro 'int'
- void PedirNumeros(int p[], int);
-                   ^~~
-..\E-5-1.c:15:15: error: expected ')' before numeric constant
- #define int T 5
-               ^
-..\E-5-1.c:19:19: note: in expansion of macro 'int'
- void SumarNumeros(int p[], int);
-                   ^~~
-..\E-5-1.c:15:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
- #define int T 5
-               ^
-..\E-5-1.c:21:1: note: in expansion of macro 'int'
- int main(void)
- ^~~
-..\E-5-1.c:15:15: error: expected ')' before numeric constant
- #define int T 5
-               ^
-..\E-5-1.c:32:19: note: in expansion of macro 'int'
- void SumarNumeros(int p[],T)
-                   ^~~
-..\E-5-1.c:15:15: error: expected ')' before numeric constant
- #define int T 5
-               ^
-..\E-5-1.c:45:19: note: in expansion of macro 'int'
- void PedirNumeros(int p[],T)
-                   ^~~
-..\E-5-1.c:15:15: error: expected ')' before numeric constant
- #define int T 5
-               ^
-..\E-5-1.c:57:21: note: in expansion of macro 'int'
- void MostrarNumeros(int p[],T)
-                     ^~~
-08:47:23 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c:27:27: error: unknown type name 'p'
+ int numeroMinimoNegativo( p[], tam);
+                           ^
+..\E-5-3.c:27:32: error: unknown type name 'tam'
+ int numeroMinimoNegativo( p[], tam);
+                                ^~~
+..\E-5-3.c:28:19: error: unknown type name 'p'
+ int numeroMinimo( p[], tam);
+                   ^
+..\E-5-3.c:28:24: error: unknown type name 'tam'
+ int numeroMinimo( p[], tam);
+                        ^~~
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:48:19: warning: implicit declaration of function 'numeroMinimoNegativo' [-Wimplicit-function-declaration]
+  MinimoNegativo = numeroMinimoNegativo(numeros, T);
+                   ^~~~~~~~~~~~~~~~~~~~
+..\E-5-3.c: At top level:
+..\E-5-3.c:63:27: error: unknown type name 'p'
+ int numeroMinimoNegativo( p[], tam)
+                           ^
+..\E-5-3.c:63:32: error: unknown type name 'tam'
+ int numeroMinimoNegativo( p[], tam)
+                                ^~~
+..\E-5-3.c:79:19: error: unknown type name 'p'
+ int numeroMinimo( p[], tam)
+                   ^
+..\E-5-3.c:79:24: error: unknown type name 'tam'
+ int numeroMinimo( p[], tam)
+                        ^~~
+09:34:17 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:17:34: note: in expansion of macro 'T'
- void MostrarNumeros(int p[], int T);
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'numeroMinimoNegativo':
+..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
+    minimoNegativo = numeroMinimo(p[i], tam);
                                   ^
-..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:18:32: note: in expansion of macro 'T'
- void PedirNumeros(int p[], int T);
-                                ^
-..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:19:32: note: in expansion of macro 'T'
- void SumarNumeros(int p[], int T);
-                                ^
-..\E-5-1.c: In function 'main':
-..\E-5-1.c:26:2: warning: implicit declaration of function 'PedirNumeros' [-Wimplicit-function-declaration]
-  PedirNumeros(numeros);
-  ^~~~~~~~~~~~
-..\E-5-1.c:27:2: warning: implicit declaration of function 'MostrarNumeros' [-Wimplicit-function-declaration]
-  MostrarNumeros(numeros);
-  ^~~~~~~~~~~~~~
-..\E-5-1.c:28:2: warning: implicit declaration of function 'SumarNumeros' [-Wimplicit-function-declaration]
-  SumarNumeros(numeros);
-  ^~~~~~~~~~~~
-..\E-5-1.c: At top level:
-..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:32:27: note: in expansion of macro 'T'
- void SumarNumeros(int p[],T)
-                           ^
-..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:45:27: note: in expansion of macro 'T'
- void PedirNumeros(int p[],T)
-                           ^
-..\E-5-1.c:15:11: error: expected declaration specifiers or '...' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:57:29: note: in expansion of macro 'T'
- void MostrarNumeros(int p[],T)
-                             ^
-08:53:59 **** Incremental Build of configuration Debug for project E-5-1 ****
+..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+09:38:22 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-..\E-5-1.c: In function 'main':
-..\E-5-1.c:26:2: error: too few arguments to function 'PedirNumeros'
-  PedirNumeros(numeros);
-  ^~~~~~~~~~~~
-..\E-5-1.c:18:6: note: declared here
- void PedirNumeros(int p[], int);
-      ^~~~~~~~~~~~
-..\E-5-1.c:27:2: error: too few arguments to function 'MostrarNumeros'
-  MostrarNumeros(numeros);
-  ^~~~~~~~~~~~~~
-..\E-5-1.c:17:6: note: declared here
- void MostrarNumeros(int p[], int);
-      ^~~~~~~~~~~~~~
-..\E-5-1.c:28:2: error: too few arguments to function 'SumarNumeros'
-  SumarNumeros(numeros);
-  ^~~~~~~~~~~~
-..\E-5-1.c:19:6: note: declared here
- void SumarNumeros(int p[], int);
-      ^~~~~~~~~~~~
-..\E-5-1.c: At top level:
-..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:32:31: note: in expansion of macro 'T'
- void SumarNumeros(int p[],int T)
-                               ^
-..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:45:31: note: in expansion of macro 'T'
- void PedirNumeros(int p[],int T)
-                               ^
-..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:57:33: note: in expansion of macro 'T'
- void MostrarNumeros(int p[],int T)
-                                 ^
-08:55:23 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'numeroMinimoNegativo':
+..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
+    minimoNegativo = numeroMinimo(p[i], tam);
+                                  ^
+..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+09:44:44 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-..\E-5-1.c:15:11: error: expected ';', ',' or ')' before numeric constant
- #define T 5
-           ^
-..\E-5-1.c:45:31: note: in expansion of macro 'T'
- void PedirNumeros(int p[],int T)
-                               ^
-08:55:38 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'numeroMinimoNegativo':
+..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
+    minimoNegativo = numeroMinimo(p[i], tam)
+                                  ^
+..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+..\E-5-3.c:74:3: error: expected ';' before '}' token
+   }
+   ^
+09:44:56 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-gcc -o E-5-1.exe E-5-1.o 
-Info: Nothing to build for E-5-1
-08:55:52 **** Incremental Build of configuration Debug for project E-5-1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'numeroMinimoNegativo':
+..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
+    minimoNegativo = numeroMinimo(p[i], tam);
+                                  ^
+..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+09:46:06 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-1.o "..\\E-5-1.c" 
-gcc -o E-5-1.exe E-5-1.o 
-Info: Nothing to build for E-5-1
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'numeroMinimoNegativo':
+..\E-5-3.c:73:4: warning: statement with no effect [-Wunused-value]
+    minimoNegativo;
+    ^~~~~~~~~~~~~~
+..\E-5-3.c:76:9: warning: 'minimoNegativo' is used uninitialized in this function [-Wuninitialized]
+  return minimoNegativo;
+         ^~~~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+09:46:20 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+09:46:56 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'numeroMinimoNegativo':
+..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
+    minimoNegativo = numeroMinimo(p[i], tam);
+                                  ^
+..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+09:53:38 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:50:6: warning: unused variable 'minimo' [-Wunused-variable]
+  int minimo = numeroMinimo(numeros, T);
+      ^~~~~~
+..\E-5-3.c: In function 'numeroMinimoNegativo':
+..\E-5-3.c:74:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
+    minimoNegativo = numeroMinimo(p[i]);
+                                  ^
+..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+..\E-5-3.c:74:21: error: too few arguments to function 'numeroMinimo'
+    minimoNegativo = numeroMinimo(p[i]);
+                     ^~~~~~~~~~~~
+..\E-5-3.c:28:5: note: declared here
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+..\E-5-3.c: At top level:
+..\E-5-3.c:80:5: error: conflicting types for 'numeroMinimo'
+ int numeroMinimo(int min)
+     ^~~~~~~~~~~~
+..\E-5-3.c:28:5: note: previous declaration of 'numeroMinimo' was here
+ int numeroMinimo(int p[], int tam);
+     ^~~~~~~~~~~~
+09:54:11 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'main':
+..\E-5-3.c:50:28: warning: passing argument 1 of 'numeroMinimo' makes integer from pointer without a cast [-Wint-conversion]
+  int minimo = numeroMinimo(numeros);
+                            ^~~~~~~
+..\E-5-3.c:28:5: note: expected 'int' but argument is of type 'int *'
+ int numeroMinimo(int min);
+     ^~~~~~~~~~~~
+..\E-5-3.c:50:6: warning: unused variable 'minimo' [-Wunused-variable]
+  int minimo = numeroMinimo(numeros);
+      ^~~~~~
+..\E-5-3.c: In function 'numeroMinimo':
+..\E-5-3.c:85:13: warning: 'minimo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (i == 0 || min < minimo)
+      ~~~~~~~^~~~~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+09:54:50 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+..\E-5-3.c: In function 'numeroMinimo':
+..\E-5-3.c:84:13: warning: 'minimo' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  if (i == 0 || min < minimo)
+      ~~~~~~~^~~~~~~~~~~~~~~
+gcc -o E-5-3.exe E-5-3.o 
+10:00:22 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+Info: Nothing to build for E-5-3
+10:00:37 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+10:00:55 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+10:01:07 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+10:01:20 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 
+10:02:16 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
+gcc -o E-5-3.exe E-5-3.o 

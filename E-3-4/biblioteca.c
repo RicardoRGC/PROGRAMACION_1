@@ -12,12 +12,19 @@ int PedirEntero(char mensaje[], int min, int max)
 	int unNumero;
 	printf("%s ", mensaje);
 	scanf("%d", &unNumero);
-	while (unNumero < min || unNumero > max)
+
+	unNumero = ValidarEntero(unNumero, min, max);
+	return unNumero;
+}
+int ValidarEntero(int validar, int min, int max)
+
+{
+	while (validar > max || validar < min)
 	{
-		printf("%s ", mensaje);
-		scanf("%d", &unNumero);
+		printf("error ingrese numero:");
+		scanf("%d", &validar);
 	}
 
-	return unNumero;
+	return validar;
 }
 

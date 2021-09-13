@@ -23,7 +23,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "B-2-1.h"
+#include "biblioteca.h"
 
 int main(void)
 {
