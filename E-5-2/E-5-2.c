@@ -17,7 +17,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "bi.h"
-#define T 2
+#define T 5
 
 int main(void)
 {
@@ -39,8 +39,7 @@ int main(void)
 
 	int numeros[T];
 
-	CargarVector("ingresar numeros ENTRE -1000 a 1000",
-					numeros, T, -1000, 1000);
+	CargarVector("ingresar numeros ENTRE -1000 a 1000", numeros, T, -1000, 1000);
 
 	ContarPositivosNegativos(numeros, T);
 	SumarPares(numeros, T);
@@ -49,6 +48,7 @@ int main(void)
 	MostrarNumerosPares(numeros, T);
 	printf("numeros ingresados\n");
 	MostrarVector(numeros, T);
+	MostrarNumerosImpares(numeros, T);
 
 	return EXIT_SUCCESS;
 }

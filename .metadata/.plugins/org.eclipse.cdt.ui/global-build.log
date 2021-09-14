@@ -1,410 +1,236 @@
-21:50:55 **** Rebuild of configuration Debug for project E-5-3 ****
+21:41:06 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
+  char apellidoNombre[51];
+       ^~~~~~~~~~~~~~
+..\Practicas.c:29:7: warning: unused variable 'apellido' [-Wunused-variable]
+  char apellido[25];
+       ^~~~~~~~
+..\Practicas.c:28:7: warning: unused variable 'nombre' [-Wunused-variable]
+  char nombre[25];
+       ^~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+21:41:53 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
+  char apellidoNombre[51];
+       ^~~~~~~~~~~~~~
+..\Practicas.c:29:7: warning: unused variable 'apellido' [-Wunused-variable]
+  char apellido[25];
+       ^~~~~~~~
+..\Practicas.c:28:7: warning: unused variable 'nombre' [-Wunused-variable]
+  char nombre[25];
+       ^~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+21:44:28 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
+  char apellidoNombre[51];
+       ^~~~~~~~~~~~~~
+..\Practicas.c:29:7: warning: unused variable 'apellido' [-Wunused-variable]
+  char apellido[25];
+       ^~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+Info: Nothing to build for Practicas
+Info: Nothing to build for Practicas
+Info: Nothing to build for Practicas
+Info: Nothing to build for Practicas
+21:49:10 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:62:2: error: too many arguments to function 'puts'
+  puts(apellido, nombre);
+  ^~~~
+In file included from ..\Practicas.c:20:0:
+c:\mingw\include\stdio.h:677:41: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    puts (const char *);
+                                         ^~~~
+..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
+  char apellidoNombre[51];
+       ^~~~~~~~~~~~~~
+21:50:04 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
+  char apellidoNombre[51];
+       ^~~~~~~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+21:50:46 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
+  char apellidoNombre[51];
+       ^~~~~~~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+21:57:19 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+21:58:35 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+21:59:09 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+21:59:27 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+22:00:15 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+22:09:40 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+22:10:15 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+Info: Nothing to build for Practicas
+22:11:21 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+22:12:06 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+22:12:23 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+22:15:40 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+..\Practicas.c: In function 'main':
+..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[1000];
+       ^~~~~~~~~
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+08:57:11 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+08:58:38 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+08:59:10 **** Incremental Build of configuration Debug for project Practicas ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
+gcc -o Practicas.exe Practicas.o biblioteca.o 
+Info: Nothing to build for Practicas
+09:01:31 **** Rebuild of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
 Info: Nothing to build for E-5-3
-10:18:38 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-10:33:03 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:32:19: warning: format '%d' expects a matching 'int' argument [-Wformat=]
-  printf("%d- %d- %d -", numeros[0], numeros[1]);
-                   ^
-gcc -o E-5-3.exe E-5-3.o 
-10:33:18 **** Incremental Build of configuration Debug for project E-5-3 ****
+Info: Nothing to build for E-5-3
+Info: Nothing to build for E-5-3
+09:09:09 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
 Info: Nothing to build for E-5-3
-10:44:32 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:10:07 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
 Info: Nothing to build for E-5-3
-10:45:32 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:10:37 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
-10:46:15 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:14:00 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
-10:46:27 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:14:20 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
-16:15:58 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:33:2: error: too few arguments to function 'CargarVector'
-  CargarVector("ingrese numero", numeros, T);
-  ^~~~~~~~~~~~
-..\E-5-3.c:21:6: note: declared here
- void CargarVector(char mensaje[], int p[], int tam, int min, int max);
-      ^~~~~~~~~~~~
-16:18:01 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:16:03 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-16:19:37 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-16:21:09 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-16:22:27 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:33:45: error: 'min' undeclared (first use in this function)
-  CargarVector("ingrese numero", numeros, T, min, max);
-                                             ^~~
-..\E-5-3.c:33:45: note: each undeclared identifier is reported only once for each function it appears in
-..\E-5-3.c:33:50: error: 'max' undeclared (first use in this function)
-  CargarVector("ingrese numero", numeros, T, min, max);
-                                                  ^~~
-16:24:08 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:22:07 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 ..\E-5-3.c: In function 'CargarVector':
-..\E-5-3.c:75:33: error: 'min' undeclared (first use in this function)
-   numero = PedirEntero(mensaje, min, max);
-                                 ^~~
-..\E-5-3.c:75:33: note: each undeclared identifier is reported only once for each function it appears in
-..\E-5-3.c:75:38: error: 'max' undeclared (first use in this function)
-   numero = PedirEntero(mensaje, min, max);
-                                      ^~~
-16:24:50 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'CargarVector':
-..\E-5-3.c:75:12: error: too few arguments to function 'PedirEntero'
-   numero = PedirEntero(mensaje);
-            ^~~~~~~~~~~
-..\E-5-3.c:20:5: note: declared here
- int PedirEntero(char mensaje[], int min, int max);
-     ^~~~~~~~~~~
-..\E-5-3.c:76:14: error: too few arguments to function 'PedirEntero'
-   posicion = PedirEntero("pedir posicion");
-              ^~~~~~~~~~~
-..\E-5-3.c:20:5: note: declared here
- int PedirEntero(char mensaje[], int min, int max);
-     ^~~~~~~~~~~
-16:25:16 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-16:25:23 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-16:26:39 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-17:08:04 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:35:23: warning: implicit declaration of function 'acumuladorPositivosNegativos' [-Wimplicit-function-declaration]
-  acumuladorPositivo = acumuladorPositivosNegativos(numeros, T);
-                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..\E-5-3.c:37:2: warning: implicit declaration of function 'prinf' [-Wimplicit-function-declaration]
-  prinf("sma postivos %d", acumuladorPositivo);
-  ^~~~~
-..\E-5-3.c: In function 'acumuladorPositivosNegativos':
-..\E-5-3.c:64:24: warning: implicit declaration of function 'DeterminarSigno' [-Wimplicit-function-declaration]
-   positivosNegativos = DeterminarSigno(positivosNegativos);
-                        ^~~~~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-E-5-3.o: In function `main':
-C:\Users\gonza\eclipse-workspace\E-5-3\Debug/../E-5-3.c:37: undefined reference to `prinf'
-collect2.exe: error: ld returned 1 exit status
-17:08:15 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:35:23: warning: implicit declaration of function 'acumuladorPositivosNegativos' [-Wimplicit-function-declaration]
-  acumuladorPositivo = acumuladorPositivosNegativos(numeros, T);
-                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..\E-5-3.c: In function 'acumuladorPositivosNegativos':
-..\E-5-3.c:64:24: warning: implicit declaration of function 'DeterminarSigno' [-Wimplicit-function-declaration]
-   positivosNegativos = DeterminarSigno(positivosNegativos);
-                        ^~~~~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-17:09:16 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-17:10:41 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-17:18:23 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:40:22: warning: implicit declaration of function 'contadorPositivosNegativos' [-Wimplicit-function-declaration]
-  contadorPositivos = contadorPositivosNegativos(numeros, T);
-                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-17:18:37 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:40:22: warning: implicit declaration of function 'contadorPositivosNegativos' [-Wimplicit-function-declaration]
-  contadorPositivos = contadorPositivosNegativos(numeros, T);
-                      ^~~~~~~~~~~~~~~~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-5-3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-17:19:05 **** Incremental Build of configuration Debug for project E-5-3 ****
+..\E-5-3.c:206:2: error: expected ';' before '}' token
+  }
+  ^
+09:22:18 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
 c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-5-3.exe: Permission denied
 collect2.exe: error: ld returned 1 exit status
-17:19:09 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:22:22 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -o E-5-3.exe E-5-3.o 
-17:20:43 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:44:30: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
-  printf("promedio positivos %d", promediopositivos);
-                              ^
-gcc -o E-5-3.exe E-5-3.o 
-17:21:05 **** Incremental Build of configuration Debug for project E-5-3 ****
+09:23:28 **** Incremental Build of configuration Debug for project E-5-3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
 gcc -o E-5-3.exe E-5-3.o 
 Info: Nothing to build for E-5-3
-09:30:57 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c:27:27: error: unknown type name 'p'
- int numeroMinimoNegativo( p[], tam);
-                           ^
-..\E-5-3.c:27:32: error: unknown type name 'tam'
- int numeroMinimoNegativo( p[], tam);
-                                ^~~
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:47:25: warning: implicit declaration of function 'numeroMinimo' [-Wimplicit-function-declaration]
-  numeroMinimoNegativo = numeroMinimo(numeros, T);
-                         ^~~~~~~~~~~~
-..\E-5-3.c: At top level:
-..\E-5-3.c:62:27: error: unknown type name 'p'
- int numeroMinimoNegativo( p[], tam)
-                           ^
-..\E-5-3.c:62:32: error: unknown type name 'tam'
- int numeroMinimoNegativo( p[], tam)
-                                ^~~
-..\E-5-3.c:78:19: error: unknown type name 'p'
- int numeroMinimo( p[], tam)
-                   ^
-..\E-5-3.c:78:24: error: unknown type name 'tam'
- int numeroMinimo( p[], tam)
-                        ^~~
-09:33:09 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c:27:27: error: unknown type name 'p'
- int numeroMinimoNegativo( p[], tam);
-                           ^
-..\E-5-3.c:27:32: error: unknown type name 'tam'
- int numeroMinimoNegativo( p[], tam);
-                                ^~~
-..\E-5-3.c:28:19: error: unknown type name 'p'
- int numeroMinimo( p[], tam);
-                   ^
-..\E-5-3.c:28:24: error: unknown type name 'tam'
- int numeroMinimo( p[], tam);
-                        ^~~
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:48:19: warning: implicit declaration of function 'numeroMinimoNegativo' [-Wimplicit-function-declaration]
-  MinimoNegativo = numeroMinimoNegativo(numeros, T);
-                   ^~~~~~~~~~~~~~~~~~~~
-..\E-5-3.c: At top level:
-..\E-5-3.c:63:27: error: unknown type name 'p'
- int numeroMinimoNegativo( p[], tam)
-                           ^
-..\E-5-3.c:63:32: error: unknown type name 'tam'
- int numeroMinimoNegativo( p[], tam)
-                                ^~~
-..\E-5-3.c:79:19: error: unknown type name 'p'
- int numeroMinimo( p[], tam)
-                   ^
-..\E-5-3.c:79:24: error: unknown type name 'tam'
- int numeroMinimo( p[], tam)
-                        ^~~
-09:34:17 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'numeroMinimoNegativo':
-..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
-    minimoNegativo = numeroMinimo(p[i], tam);
-                                  ^
-..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-09:38:22 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'numeroMinimoNegativo':
-..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
-    minimoNegativo = numeroMinimo(p[i], tam);
-                                  ^
-..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-09:44:44 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'numeroMinimoNegativo':
-..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
-    minimoNegativo = numeroMinimo(p[i], tam)
-                                  ^
-..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-..\E-5-3.c:74:3: error: expected ';' before '}' token
-   }
-   ^
-09:44:56 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'numeroMinimoNegativo':
-..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
-    minimoNegativo = numeroMinimo(p[i], tam);
-                                  ^
-..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-09:46:06 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'numeroMinimoNegativo':
-..\E-5-3.c:73:4: warning: statement with no effect [-Wunused-value]
-    minimoNegativo;
-    ^~~~~~~~~~~~~~
-..\E-5-3.c:76:9: warning: 'minimoNegativo' is used uninitialized in this function [-Wuninitialized]
-  return minimoNegativo;
-         ^~~~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-09:46:20 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-09:46:56 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'numeroMinimoNegativo':
-..\E-5-3.c:73:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
-    minimoNegativo = numeroMinimo(p[i], tam);
-                                  ^
-..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-09:53:38 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:50:6: warning: unused variable 'minimo' [-Wunused-variable]
-  int minimo = numeroMinimo(numeros, T);
-      ^~~~~~
-..\E-5-3.c: In function 'numeroMinimoNegativo':
-..\E-5-3.c:74:34: warning: passing argument 1 of 'numeroMinimo' makes pointer from integer without a cast [-Wint-conversion]
-    minimoNegativo = numeroMinimo(p[i]);
-                                  ^
-..\E-5-3.c:28:5: note: expected 'int *' but argument is of type 'int'
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-..\E-5-3.c:74:21: error: too few arguments to function 'numeroMinimo'
-    minimoNegativo = numeroMinimo(p[i]);
-                     ^~~~~~~~~~~~
-..\E-5-3.c:28:5: note: declared here
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-..\E-5-3.c: At top level:
-..\E-5-3.c:80:5: error: conflicting types for 'numeroMinimo'
- int numeroMinimo(int min)
-     ^~~~~~~~~~~~
-..\E-5-3.c:28:5: note: previous declaration of 'numeroMinimo' was here
- int numeroMinimo(int p[], int tam);
-     ^~~~~~~~~~~~
-09:54:11 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'main':
-..\E-5-3.c:50:28: warning: passing argument 1 of 'numeroMinimo' makes integer from pointer without a cast [-Wint-conversion]
-  int minimo = numeroMinimo(numeros);
-                            ^~~~~~~
-..\E-5-3.c:28:5: note: expected 'int' but argument is of type 'int *'
- int numeroMinimo(int min);
-     ^~~~~~~~~~~~
-..\E-5-3.c:50:6: warning: unused variable 'minimo' [-Wunused-variable]
-  int minimo = numeroMinimo(numeros);
-      ^~~~~~
-..\E-5-3.c: In function 'numeroMinimo':
-..\E-5-3.c:85:13: warning: 'minimo' may be used uninitialized in this function [-Wmaybe-uninitialized]
-  if (i == 0 || min < minimo)
-      ~~~~~~~^~~~~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-09:54:50 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'numeroMinimo':
-..\E-5-3.c:84:13: warning: 'minimo' may be used uninitialized in this function [-Wmaybe-uninitialized]
-  if (i == 0 || min < minimo)
-      ~~~~~~~^~~~~~~~~~~~~~~
-gcc -o E-5-3.exe E-5-3.o 
-10:00:22 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-10:00:37 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-10:00:55 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-10:01:07 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-10:01:20 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-10:02:16 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 

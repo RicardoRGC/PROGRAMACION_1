@@ -8,6 +8,24 @@
 #include "bi.h"
 #include <stdio.h>
 #include <stdlib.h>
+
+void MostrarNumerosImpares(int p[], int tam)
+{
+	int i;
+	int pares;
+
+	for (i = 0; i < tam; i++)
+	{
+		pares = DeterminarParidad(i);
+		if (pares == 0)
+		{
+
+			printf("numeros en indice impares:");
+			printf(" %d\n", p[i]);
+
+		}
+	}
+}
 void MostrarNumerosPares(int p[], int tam)
 {
 	int i;
@@ -116,8 +134,7 @@ void ContarPositivosNegativos(int p[], int tam)
 	{
 		positivosNegativos = p[i];
 
-		positivosNegativos = DeterminarSigno(
-						positivosNegativos);
+		positivosNegativos = DeterminarSigno(positivosNegativos);
 		if (positivosNegativos == -1)
 		{
 			contadorNegativo++;
@@ -128,8 +145,7 @@ void ContarPositivosNegativos(int p[], int tam)
 		}
 	}
 	printf("cantidad de negativos %d\n"
-					"contador de positivos %d\n", contadorNegativo,
-					contadorPositivo);
+					"contador de positivos %d\n", contadorNegativo, contadorPositivo);
 }
 void MostrarVector(int p[], int tam)
 {
@@ -139,8 +155,7 @@ void MostrarVector(int p[], int tam)
 		printf("%d\n", p[i]);
 	}
 }
-void CargarVector(char mensaje[], int p[], int tam, int min,
-				int max)
+void CargarVector(char mensaje[], int p[], int tam, int min, int max)
 {
 	int i;
 	for (i = 0; i < tam; i++)

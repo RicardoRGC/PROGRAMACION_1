@@ -10,9 +10,8 @@
 
 int PedirEntero(char mensaje[], int min, int max);
 int ValidarEntero(int validar, int min, int max);
-
-void CargarVector(char mensaje[], int p[], int tam, int min,
-				int max);
+void MostrarNumerosImpares(int p[], int tam);
+void CargarVector(char mensaje[], int p[], int tam, int min, int max);
 void MostrarVector(int p[], int tam);
 void ContarPositivosNegativos(int p[], int tam);
 int DeterminarParidad(int paridad);
