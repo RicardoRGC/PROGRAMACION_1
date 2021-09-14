@@ -204,7 +204,7 @@ void CargarVector(char mensaje[], int p[], int tam)
 		scanf("%c", &seguir);
 		intentos++;
 	}
-	while (seguir == ' ' && intentos < tam);
+	while (seguir == 's' && intentos < tam);
 
 }
 int PedirEntero(char mensaje[])
