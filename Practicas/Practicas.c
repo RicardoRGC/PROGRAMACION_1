@@ -2,16 +2,6 @@
  ============================================================================
  Name        : Practicas.c
  Author      : Gonzalez Ricardo 1-F
- 1. Ingresar 1er operando (A=x)
- 2. Ingresar 2do operando (B=y)
- 3. Calcular todas las operaciones
- a) Calcular la suma (A+B)
- b) Calcular la resta (A-B)
- c) Calcular la division (A/B)
- d) Calcular la multiplicacion (A*B)
- e) Calcular el factorial (A!)
-
-
 
 
  ============================================================================
@@ -21,61 +11,171 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>//biblioteca
-void pedirCadena(char cadena[], char mensaje[], int tam);
+#define T 20
+/*
+ * escalares 1 dato en memoria(entero,caracter,memoria) valor
+ * compuestas: arrays(unidimensionales-bidimensionales) referencia
+ * estructuras(multitipo) valor
+ *
+ */
+typedef struct
+{
+	// campos atributos
+	int legajo;
+	int edad;
+	float nota;
+	char nombre[50];
+} eAlumnos;
+
+void cargarAlumnos(int legajo, char nombre[][50], float nota[], int edad[], int tam);
+void mostarAlumnos(int legajo, char nombre[][50], float nota[], int edad[], int tam);
+int PedirEntero(char mensaje[], int min, int max);
+float PedirFloat(char mensaje[], int min, int max);
+void OrdenarAlumnosPorNombre(int legajo[], char nombre[][50], float nota[], int edad[], int tam);
+void OrdenarAlumnosPorNotas(int legajo[], char nombre[][50], float nota[], int edad[], int tam);
 int main(void)
 {
 	setbuf(stdout, NULL);
-	char nombre[25] = "riky";
-	char apellido[25] = "GONZALEZ ";
-	char apellidoNombre[51] = "";
-	pedirCadena(apellido, "ingrese apellido", 25);
-	pedirCadena(nombre, "ingrese nombre", 25);
+	//modelos de datos
 
-	strcpy(apellidoNombre, apellido);
-	strcat(apellidoNombre, " ");
-	strcat(apellidoNombre, nombre);
-	strlwr(apellidoNombre); //a minuscula
-	puts(apellidoNombre);
+	/*int legajo[T] = { 1001, 1000 };
 
-	apellidoNombre[0] = toupper(apellidoNombre[0]);
+	 int edad[T] = { 20, 30 };
+	 float nota[T] = { 10, 5 };
+	 char nombre[T][50] = { "maria", "luis" };
+	 //modelos de datos
 
-	for (int i = 0; i < strlen(apellidoNombre); i++)
-	{
-		if (apellidoNombre[i] == ' ') // isscape(apellidoNombre[i])
-		//
+	 //cargarAlumnos(legajo, nombre, nota, edad, 2);
+	 //OrdenarAlumnosPorNotas(legajo, nombre, nota, edad, 2);
+	 //mostarAlumnos(legajo, nombre, nota, edad, 2);
+	 */
 
-		{
-			apellidoNombre[i + 1] = toupper(apellidoNombre[i + 1]);
-		}
+	eAlumnos miAlumno = { 1000, 25, 10, "juan" };
 
-	}
-	puts(apellidoNombre);
+	printf("%d\n", sizeof(miAlumno));
+	printf("%d %s %.2f %d", miAlumno.legajo, miAlumno.nombre, miAlumno.nota, miAlumno.edad);
 
-	return 0;
+	return EXIT_SUCCESS;
 }
-
-void pedirCadena(char cadena[], char mensaje[], int tam) //int cantidadIntentos
+int PedirEntero(char mensaje[], int min, int max)
 {
 
-//24+24 +1+2=51
-	char auxstring[1000];
+	int entero;
+	printf("%s", mensaje);
+	scanf("%d", &entero);
+	//entero = ValidarEntero(entero, min, max);
 
-	printf(mensaje);
-	fflush(stdin);
-	gets(auxstring);
-	//strncpy(nombre,25,aux)
-
-	while (strlen(auxstring) > tam - 1)
-	{
-		printf(" ERROR ingrese nombre");
-		fflush(stdin);
-		gets(auxstring);
-	}
-	strncpy(cadena, auxstring, 24);
-
-	////
-	///
-	///
-	
+	return entero;
 }
+/*
+ void OrdenarAlumnosPorNombre(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
+ {
 
+ int auxEntero;
+
+ float auxFlotante;
+ char auxstring[50];
+
+ for (int i = 0; i < tam - 1; i++)
+ {
+ for (int j = i + 1; j < tam; j++)
+ {
+ if (strcmp(nombre[i], nombre[j]) < 0) //criterio de ordenamiento ordena de z-a por cadena
+ {
+ auxFlotante = nota[i];
+ nota[i] = nota[j]; // intercambian valores
+ nota[j] = auxFlotante;
+
+ auxEntero = edad[i];
+ edad[i] = edad[j]; // intercambian valores
+ edad[j] = auxEntero;
+
+ auxEntero = legajo[i];
+ legajo[i] = legajo[j]; // intercambian valores
+ legajo[j] = auxEntero;
+
+ strcpy(auxstring, nombre[i]);
+ strcpy(nombre[i], nombre[j]);
+ strcpy(nombre[j], auxstring);
+
+ }
+ }
+ }
+ }
+ /// @param legajo
+ /// @param nombre
+ /// @param nota
+ /// @param edad
+ /// @param tam
+ void OrdenarAlumnosPorNotas(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
+ {
+
+ int auxEntero;
+ float auxFlotante;
+ char auxstring[50];
+ for (int i = 0; i < tam - 1; i++)
+ {
+ for (int j = i + 1; j < tam; j++)
+ {
+ if (nota[i] < nota[j]) //criterio de ordenamiento
+ {
+ auxFlotante = nota[i];
+ nota[i] = nota[j]; // intercambian valores
+ nota[j] = auxFlotante;
+
+ auxEntero = edad[i];
+ edad[i] = edad[j]; // intercambian valores
+ edad[j] = auxEntero;
+
+ auxEntero = legajo[i];
+ legajo[i] = legajo[j]; // intercambian valores
+ legajo[j] = auxEntero;
+
+ strcpy(auxstring, nombre[i]);
+ strcpy(nombre[i], nombre[j]);
+ strcpy(nombre[j], auxstring);
+
+ }
+ }
+ }
+ }
+
+ void mostarAlumnos(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
+ {
+ for (int i = 0; i < T; i++)
+ {
+ printf("%d %s %d %.2f\n ", legajo[i], nombre[i], edad[i], nota[i]);
+
+ }
+ }
+ void cargarAlumnos(int legajo, char nombre[][50], float nota[], int edad[], int tam)
+ {
+ for (int i = 0; i < tam; i++)
+ {
+ //legajo[i] = PedirEntero("legajo");
+ edad[i] = PedirEntero("edad", 0, 0);
+ nota[i] = PedirFloat("nota", 0, 10);
+
+ //getstring(nombre[i], "ingrese nombre", 50);
+ }
+ }
+ int PedirEntero(char mensaje[], int min, int max)
+ {
+
+ int entero;
+ printf("%s", mensaje);
+ scanf("%d", &entero);
+ //entero = ValidarEntero(entero, min, max);
+
+ return entero;
+ }
+ float PedirFloat(char mensaje[], int min, int max)
+ {
+ float entero;
+ printf("%s", mensaje);
+ scanf("%f", &entero);
+ //entero = ValidarEntero(entero, min, max);
+
+ return entero;
+ }
+ */

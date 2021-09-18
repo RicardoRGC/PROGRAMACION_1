@@ -3,6 +3,7 @@
  Name        : E-5-2.c
  Author      : Gonzalez Ricardo 1-F
  Ejercicio 5-2:
+
  Pedir el ingreso de 10 números enteros entre -1000 y 1000. Determinar:
  Cantidad de positivos y negativos.
  Sumatoria de los pares.
@@ -17,7 +18,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "bi.h"
-#define T 5
+#define T 10
 
 int main(void)
 {

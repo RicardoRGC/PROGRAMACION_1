@@ -1,236 +1,79 @@
-21:41:06 **** Incremental Build of configuration Debug for project Practicas ****
+09:21:38 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
-  char apellidoNombre[51];
-       ^~~~~~~~~~~~~~
-..\Practicas.c:29:7: warning: unused variable 'apellido' [-Wunused-variable]
-  char apellido[25];
-       ^~~~~~~~
-..\Practicas.c:28:7: warning: unused variable 'nombre' [-Wunused-variable]
-  char nombre[25];
-       ^~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-21:41:53 **** Incremental Build of configuration Debug for project Practicas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+..\E-6-2.c: In function 'main':
+..\E-6-2.c:28:7: warning: unused variable 'numeros' [-Wunused-variable]
+  char numeros[T] = { 5, 3, 4, 5, 3, 7, 5, 8, 9 };
+       ^~~~~~~
+gcc -o E-6-2.exe E-6-2.o 
+Info: Nothing to build for E-6-2
+09:22:29 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
-  char apellidoNombre[51];
-       ^~~~~~~~~~~~~~
-..\Practicas.c:29:7: warning: unused variable 'apellido' [-Wunused-variable]
-  char apellido[25];
-       ^~~~~~~~
-..\Practicas.c:28:7: warning: unused variable 'nombre' [-Wunused-variable]
-  char nombre[25];
-       ^~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-21:44:28 **** Incremental Build of configuration Debug for project Practicas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+..\E-6-2.c: In function 'main':
+..\E-6-2.c:29:7: warning: unused variable 'numeros' [-Wunused-variable]
+  char numeros[T] = { 5, 3, 4, 5, 3, 7, 5, 8, 9 };
+       ^~~~~~~
+gcc -o E-6-2.exe E-6-2.o 
+09:36:00 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
-  char apellidoNombre[51];
-       ^~~~~~~~~~~~~~
-..\Practicas.c:29:7: warning: unused variable 'apellido' [-Wunused-variable]
-  char apellido[25];
-       ^~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-Info: Nothing to build for Practicas
-Info: Nothing to build for Practicas
-Info: Nothing to build for Practicas
-Info: Nothing to build for Practicas
-21:49:10 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:62:2: error: too many arguments to function 'puts'
-  puts(apellido, nombre);
-  ^~~~
-In file included from ..\Practicas.c:20:0:
-c:\mingw\include\stdio.h:677:41: note: declared here
- _CRTIMP __cdecl __MINGW_NOTHROW  int    puts (const char *);
-                                         ^~~~
-..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
-  char apellidoNombre[51];
-       ^~~~~~~~~~~~~~
-21:50:04 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
-  char apellidoNombre[51];
-       ^~~~~~~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-21:50:46 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:30:7: warning: unused variable 'apellidoNombre' [-Wunused-variable]
-  char apellidoNombre[51];
-       ^~~~~~~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-21:57:19 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-21:58:35 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-21:59:09 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+..\E-6-2.c: In function 'main':
+..\E-6-2.c:33:2: warning: implicit declaration of function 'mostarAlumnos' [-Wimplicit-function-declaration]
+  mostarAlumnos(numeros, T);
+  ^~~~~~~~~~~~~
+..\E-6-2.c: At top level:
+..\E-6-2.c:37:6: warning: conflicting types for 'mostarAlumnos'
+ void mostarAlumnos(int numeros[], int tam)
+      ^~~~~~~~~~~~~
+..\E-6-2.c:33:2: note: previous implicit declaration of 'mostarAlumnos' was here
+  mostarAlumnos(numeros, T);
+  ^~~~~~~~~~~~~
+..\E-6-2.c: In function 'OrdenarNumeros':
+..\E-6-2.c:50:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[50];
        ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-21:59:27 **** Incremental Build of configuration Debug for project Practicas ****
+..\E-6-2.c:48:6: warning: unused variable 'auxEntero' [-Wunused-variable]
+  int auxEntero;
+      ^~~~~~~~~
+gcc -o E-6-2.exe E-6-2.o 
+09:36:22 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-22:00:15 **** Incremental Build of configuration Debug for project Practicas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+..\E-6-2.c: In function 'main':
+..\E-6-2.c:33:2: warning: implicit declaration of function 'mostarAlumnos' [-Wimplicit-function-declaration]
+  mostarAlumnos(numeros, T);
+  ^~~~~~~~~~~~~
+..\E-6-2.c: At top level:
+..\E-6-2.c:37:6: warning: conflicting types for 'mostarAlumnos'
+ void mostarAlumnos(int numeros[], int tam)
+      ^~~~~~~~~~~~~
+..\E-6-2.c:33:2: note: previous implicit declaration of 'mostarAlumnos' was here
+  mostarAlumnos(numeros, T);
+  ^~~~~~~~~~~~~
+gcc -o E-6-2.exe E-6-2.o 
+09:36:46 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-22:09:40 **** Incremental Build of configuration Debug for project Practicas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+gcc -o E-6-2.exe E-6-2.o 
+Info: Nothing to build for E-6-2
+09:37:44 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-22:10:15 **** Incremental Build of configuration Debug for project Practicas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+gcc -o E-6-2.exe E-6-2.o 
+Info: Nothing to build for E-6-2
+09:38:30 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-Info: Nothing to build for Practicas
-22:11:21 **** Incremental Build of configuration Debug for project Practicas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+gcc -o E-6-2.exe E-6-2.o 
+Info: Nothing to build for E-6-2
+09:38:46 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-22:12:06 **** Incremental Build of configuration Debug for project Practicas ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+gcc -o E-6-2.exe E-6-2.o 
+Info: Nothing to build for E-6-2
+09:39:24 **** Incremental Build of configuration Debug for project E-6-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-22:12:23 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-22:15:40 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-..\Practicas.c: In function 'main':
-..\Practicas.c:32:7: warning: unused variable 'auxstring' [-Wunused-variable]
-  char auxstring[1000];
-       ^~~~~~~~~
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-08:57:11 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-08:58:38 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-08:59:10 **** Incremental Build of configuration Debug for project Practicas ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Practicas.o "..\\Practicas.c" 
-gcc -o Practicas.exe Practicas.o biblioteca.o 
-Info: Nothing to build for Practicas
-09:01:31 **** Rebuild of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-Info: Nothing to build for E-5-3
-09:09:09 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-09:10:07 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
-09:10:37 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-09:14:00 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-09:14:20 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-09:16:03 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-09:22:07 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-..\E-5-3.c: In function 'CargarVector':
-..\E-5-3.c:206:2: error: expected ';' before '}' token
-  }
-  ^
-09:22:18 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-5-3.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-09:22:22 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -o E-5-3.exe E-5-3.o 
-09:23:28 **** Incremental Build of configuration Debug for project E-5-3 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-5-3.o "..\\E-5-3.c" 
-gcc -o E-5-3.exe E-5-3.o 
-Info: Nothing to build for E-5-3
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-6-2.o "..\\E-6-2.c" 
+gcc -o E-6-2.exe E-6-2.o 
+Info: Nothing to build for E-6-2

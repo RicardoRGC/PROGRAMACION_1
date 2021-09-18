@@ -26,6 +26,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\riky\Desktop\tp1\tp_laboratorio_1"/>
+			<item value="C:\Users\riky\Downloads\tp_laboratorio_1-main\tp_laboratorio_1"/>
+			<item value="C:\Users\riky\Desktop\PROGRAMACION 1\PROGRAMACION_1"/>
 			<item value="C:\Users\gonza\ProgramacionLaboratorio1"/>
 		</list>
 	</section>
