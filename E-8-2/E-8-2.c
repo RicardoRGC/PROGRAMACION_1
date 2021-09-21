@@ -40,7 +40,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-
 #include "Biblioteca-progrmacion1.h"
 
 #define EEUU 1
