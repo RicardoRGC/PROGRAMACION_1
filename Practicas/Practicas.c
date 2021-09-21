@@ -150,7 +150,7 @@ int PedirEntero(char mensaje[], int min, int max)
  }
  void cargarAlumnos(int legajo, char nombre[][50], float nota[], int edad[], int tam)
  {
- for (int i = 0; i < tam; i++)
+ for (int i = 0; i < tam; i++)77
  {
  //legajo[i] = PedirEntero("legajo");
  edad[i] = PedirEntero("edad", 0, 0);
