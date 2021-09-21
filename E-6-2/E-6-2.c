@@ -4,8 +4,10 @@
  Author      : Gonzalez Ricardo 1-F
 
  Ejercicio 6-2:
- Realizar un programa que permita el ingreso de 10 números enteros (positivos y negativos).
- Necesito generar un listado de los números positivos de manera creciente y negativos de manera decreciente.
+ Realizar un programa que permita el ingreso de 10 números enteros
+ (positivos y negativos).
+ Necesito generar un listado de los números positivos de manera creciente
+ y negativos de manera decreciente.
  (Como máximo 5 estructuras repetitivas)
  Ejemplo:
  Listado 1 : 4, 5, 6, 10, 18, 29
@@ -28,7 +30,7 @@ int main(void)
 
 	setbuf(stdout, NULL);
 
-	int numeros[T] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+	int numeros[T] = { 1, 2, 3, 4, 5, 6, -7, -8, 9, 10 };
 
 	OrdenarNumeros(numeros, T);
 	mostarAlumnos(numeros, T);
@@ -52,7 +54,7 @@ void OrdenarNumeros(int numero[], int tam)
 	{
 		for (int j = i + 1; j < tam; j++)
 		{
-			if (numero[i] < numero[j]) //criterio de ordenamiento
+			if (numero[i] < numero[j]) //criterio de ordenamiento ordena de mayor a menor
 			{
 				auxFlotante = numero[i];
 				numero[i] = numero[j]; // intercambian valores
