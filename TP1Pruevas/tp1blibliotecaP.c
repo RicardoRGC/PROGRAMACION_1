@@ -13,6 +13,7 @@
 int ValidarNumero(char numero[])
 {
 	int i;
+
 	for (i = 0; i < strlen(numero); i++)
 	{
 		if (!(isdigit(numero[i])))

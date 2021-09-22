@@ -1,397 +1,622 @@
-19:35:12 **** Incremental Build of configuration Debug for project E-8-2 ****
+21:00:14 **** Incremental Build of configuration Debug for project E-8-2 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe E-8-2.o 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
 Info: Nothing to build for E-8-2
-19:48:57 **** Incremental Build of configuration Debug for project E-8-2 ****
+22:37:00 **** Incremental Build of configuration Debug for project E-8-2 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c:31:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:32:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:33:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:34:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:35:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:36:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:37:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:38:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c: In function 'CargarProducto':
-..\E-8-2.c:68:69: error: 'min' undeclared (first use in this function)
-   producto[i].idProducto = PedirEntero("ingrese el id de producto", min, max)
-                                                                     ^~~
-..\E-8-2.c:68:69: note: each undeclared identifier is reported only once for each function it appears in
-..\E-8-2.c:68:74: error: 'max' undeclared (first use in this function)
-   producto[i].idProducto = PedirEntero("ingrese el id de producto", min, max)
-                                                                          ^~~
-..\E-8-2.c:69:3: error: expected ';' before 'pre'
-   pre
-   ^~~
-19:49:06 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c:31:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:32:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:33:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:34:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:35:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:36:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:37:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:38:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c: In function 'CargarProducto':
-..\E-8-2.c:68:69: error: 'min' undeclared (first use in this function)
-   producto[i].idProducto = PedirEntero("ingrese el id de producto", min, max)
-                                                                     ^~~
-..\E-8-2.c:68:69: note: each undeclared identifier is reported only once for each function it appears in
-..\E-8-2.c:68:74: error: 'max' undeclared (first use in this function)
-   producto[i].idProducto = PedirEntero("ingrese el id de producto", min, max)
-                                                                          ^~~
-..\E-8-2.c:70:2: error: expected ';' before '}' token
-  }
-  ^
-19:49:16 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c:31:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:32:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:33:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:34:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:35:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:36:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:37:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:38:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c: In function 'CargarProducto':
-..\E-8-2.c:68:69: error: 'min' undeclared (first use in this function)
-   producto[i].idProducto = PedirEntero("ingrese el id de producto", min, max);
-                                                                     ^~~
-..\E-8-2.c:68:69: note: each undeclared identifier is reported only once for each function it appears in
-..\E-8-2.c:68:74: error: 'max' undeclared (first use in this function)
-   producto[i].idProducto = PedirEntero("ingrese el id de producto", min, max);
-                                                                          ^~~
-19:49:37 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c:31:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:32:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:33:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:34:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:35:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:36:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:37:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:38:8: error: no macro name given in #define directive
- #define
-        ^
-..\E-8-2.c:73:5: error: conflicting types for 'PedirEntero'
- int PedirEntero(char mensaje[], int min, int max)
-     ^~~~~~~~~~~
-..\E-8-2.c:41:5: note: previous declaration of 'PedirEntero' was here
- int PedirEntero(char mensaje[]);
-     ^~~~~~~~~~~
-19:49:46 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c:65:5: error: conflicting types for 'PedirEntero'
- int PedirEntero(char mensaje[], int min, int max)
-     ^~~~~~~~~~~
-..\E-8-2.c:33:5: note: previous declaration of 'PedirEntero' was here
- int PedirEntero(char mensaje[]);
-     ^~~~~~~~~~~
-19:49:58 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe E-8-2.o 
-21:33:52 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'PedirString':
-..\E-8-2.c:172:2: warning: implicit declaration of function '__fpurge' [-Wimplicit-function-declaration]
-  __fpurge(stdin);
-  ^~~~~~~~
-gcc -o E-8-2.exe E-8-2.o 
-E-8-2.o: In function `PedirString':
-C:\Users\riky\Desktop\PROGRAMACION 1\PROGRAMACION_1\E-8-2\Debug/../E-8-2.c:172: undefined reference to `__fpurge'
-collect2.exe: error: ld returned 1 exit status
-21:34:28 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe E-8-2.o 
-Info: Nothing to build for E-8-2
-23:19:00 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-23:19:04 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe E-8-2.o 
-23:53:23 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
 ..\E-8-2.c: In function 'main':
-..\E-8-2.c:66:7: warning: unused variable 'validar' [-Wunused-variable]
-  char validar[5];
-       ^~~~~~~
-gcc -o E-8-2.exe E-8-2.o 
-00:20:38 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Biblioteca-Programacion1.o "..\\Biblioteca-Programacion1.c" 
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'ValidarNumeroEntero':
-..\E-8-2.c:107:9: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
-   if (!(isdigit(numero[i]))) //5.55
-         ^~~~~~~
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:32:20 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'ValidarNumeroEntero':
-..\E-8-2.c:122:9: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
-   if (!(isdigit(numero[i]))) //5.55
-         ^~~~~~~
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:32:50 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-Info: Nothing to build for E-8-2
-00:33:47 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:33:51 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-00:36:57 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:37:01 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:38:42 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:38:46 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:41:01 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:91:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
-    printf("%c", validar);
-             ^
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:41:07 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-00:41:34 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:91:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char (*)[5]' [-Wformat=]
-    printf("%c", &validar);
-             ^
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:41:39 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-00:42:20 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:91:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
-    printf("%c", validar);
-             ^
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:42:25 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:42:33 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:91:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
-    printf("%c", validar);
-             ^
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:42:44 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-00:43:05 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:91:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
-    printf("%c", validar);
-             ^
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:43:06 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:43:40 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:43:45 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:44:04 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:91:13: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
-    printf("%s", validar[0]);
-             ^
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:44:56 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:91:13: warning: format '%c' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
-    printf("%c", validar);
-             ^
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:45:05 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-00:47:24 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:47:28 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-00:48:20 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-..\E-8-2.c: In function 'main':
-..\E-8-2.c:94:3: warning: 'N' is used uninitialized in this function [-Wuninitialized]
-   while (N == 0);
+..\E-8-2.c:77:13: warning: unused variable 'listaDeProductos' [-Wunused-variable]
+  eProductos listaDeProductos[TAM];
+             ^~~~~~~~~~~~~~~~
+..\E-8-2.c: In function 'cargaDePROductos':
+..\E-8-2.c:127:15: warning: passing argument 1 of 'pedirCadena' from incompatible pointer type [-Wincompatible-pointer-types]
+   pedirCadena(lista, "ingrese descripcion", tam);
+               ^~~~~
+In file included from ..\E-8-2.c:44:0:
+..\B.h:11:6: note: expected 'char *' but argument is of type 'eProductos * {aka struct <anonymous> *}'
+ void pedirCadena(char cadena[], char mensaje[], int tam);
+      ^~~~~~~~~~~
+..\E-8-2.c:129:21: warning: implicit declaration of function 'PedirNumeros' [-Wimplicit-function-declaration]
+   lista[i].precio = PedirNumeros("ingrese numero", flotante)
+                     ^~~~~~~~~~~~
+..\E-8-2.c:129:52: error: 'flotante' undeclared (first use in this function)
+   lista[i].precio = PedirNumeros("ingrese numero", flotante)
+                                                    ^~~~~~~~
+..\E-8-2.c:129:52: note: each undeclared identifier is reported only once for each function it appears in
+..\E-8-2.c:130:3: error: expected ';' before 'lista'
+   lista[i].tipo
    ^~~~~
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:48:26 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-00:53:31 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-00:53:35 **** Incremental Build of configuration Debug for project E-8-2 ****
-Info: Internal Builder is used for build
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
-Info: Nothing to build for E-8-2
-00:56:05 **** Incremental Build of configuration Debug for project E-8-2 ****
+22:39:02 **** Incremental Build of configuration Debug for project E-8-2 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
 ..\E-8-2.c: In function 'main':
-..\E-8-2.c:100:4: error: expected ';' before 'break'
-    break;
-    ^~~~~
-..\E-8-2.c:103:4: error: expected ';' before 'break'
-    break;
-    ^~~~~
-..\E-8-2.c:112:4: error: expected ';' before 'break'
-    break;
-    ^~~~~
-00:56:18 **** Incremental Build of configuration Debug for project E-8-2 ****
+..\E-8-2.c:77:13: warning: unused variable 'listaDeProductos' [-Wunused-variable]
+  eProductos listaDeProductos[TAM];
+             ^~~~~~~~~~~~~~~~
+..\E-8-2.c: In function 'cargaDePROductos':
+..\E-8-2.c:127:15: error: incompatible type for argument 1 of 'pedirCadena'
+   pedirCadena(lista[i], "ingrese descripcion", tam);
+               ^~~~~
+In file included from ..\E-8-2.c:44:0:
+..\B.h:11:6: note: expected 'char *' but argument is of type 'eProductos {aka struct <anonymous>}'
+ void pedirCadena(char cadena[], char mensaje[], int tam);
+      ^~~~~~~~~~~
+22:40:53 **** Incremental Build of configuration Debug for project E-8-2 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
-gcc -o E-8-2.exe Biblioteca-Programacion1.o E-8-2.o 
+..\E-8-2.c: In function 'main':
+..\E-8-2.c:77:13: warning: unused variable 'listaDeProductos' [-Wunused-variable]
+  eProductos listaDeProductos[TAM];
+             ^~~~~~~~~~~~~~~~
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:41:05 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+E-8-2.o: In function `cargaDePROductos':
+C:\Users\riky\Desktop\PROGRAMACION 1\PROGRAMACION_1\E-8-2\Debug/../E-8-2.c:129: undefined reference to `Pedirfloat'
+collect2.exe: error: ld returned 1 exit status
+22:41:54 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'main':
+..\E-8-2.c:77:13: warning: unused variable 'listaDeProductos' [-Wunused-variable]
+  eProductos listaDeProductos[TAM];
+             ^~~~~~~~~~~~~~~~
+gcc -o E-8-2.exe B.o E-8-2.o 
+23:57:11 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'main':
+..\E-8-2.c:100:4: warning: implicit declaration of function 'cargaDePROductos' [-Wimplicit-function-declaration]
+    cargaDePROductos(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~
+..\E-8-2.c: At top level:
+..\E-8-2.c:121:6: warning: conflicting types for 'cargaDePROductos'
+ void cargaDePROductos(eProductos lista[], int tam)
+      ^~~~~~~~~~~~~~~~
+..\E-8-2.c:100:4: note: previous implicit declaration of 'cargaDePROductos' was here
+    cargaDePROductos(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~
+gcc -o E-8-2.exe B.o E-8-2.o 
+23:57:37 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
 Info: Nothing to build for E-8-2
+23:57:55 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+00:02:12 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+Info: Nothing to build for E-8-2
+00:03:55 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:03:59 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+00:05:29 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+Info: Nothing to build for E-8-2
+00:17:13 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c:70:22: error: unknown type name 'eProducto'
+ void MostrarProducto(eProducto producto);
+                      ^~~~~~~~~
+..\E-8-2.c:71:28: error: unknown type name 'eProducto'
+ void MostrarListaProductos(eProducto listaProductos[], int tam);
+                            ^~~~~~~~~
+00:17:30 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c:71:28: error: unknown type name 'eProducto'
+ void MostrarListaProductos(eProducto listaProductos[], int tam);
+                            ^~~~~~~~~
+00:17:39 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+00:18:19 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+Info: Nothing to build for E-8-2
+00:26:42 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+00:37:29 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'BajaProducto':
+..\E-8-2.c:128:6: warning: unused variable 'baja' [-Wunused-variable]
+  int baja = PedirEntero("\n ingrese id de producto");
+      ^~~~
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:37:41 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+Info: Nothing to build for E-8-2
+Info: Nothing to build for E-8-2
+00:39:10 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'main':
+..\E-8-2.c:110:35: error: expected expression before ']' token
+    BajaProducto( listaDeProductos[], tam);
+                                   ^
+..\E-8-2.c:110:38: error: 'tam' undeclared (first use in this function)
+    BajaProducto( listaDeProductos[], tam);
+                                      ^~~
+..\E-8-2.c:110:38: note: each undeclared identifier is reported only once for each function it appears in
+00:39:31 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+Info: Nothing to build for E-8-2
+00:51:24 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'ModificacionProducto':
+..\E-8-2.c:140:21: error: incompatible type for argument 1 of 'cargaDePROductos'
+    cargaDePROductos(listaProductos[i], tam);
+                     ^~~~~~~~~~~~~~
+..\E-8-2.c:68:6: note: expected 'eProductos * {aka struct <anonymous> *}' but argument is of type 'eProductos {aka struct <anonymous>}'
+ void cargaDePROductos(eProductos lista[], int tam);
+      ^~~~~~~~~~~~~~~~
+00:51:39 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:51:44 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+00:53:17 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:53:21 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+00:54:35 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:54:38 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+00:55:12 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'ModificacionProducto':
+..\E-8-2.c:141:21: error: incompatible type for argument 1 of 'cargaDePROductos'
+    cargaDePROductos(listaProductos[i], tam);
+                     ^~~~~~~~~~~~~~
+..\E-8-2.c:68:6: note: expected 'eProductos * {aka struct <anonymous> *}' but argument is of type 'eProductos {aka struct <anonymous>}'
+ void cargaDePROductos(eProductos lista[], int tam);
+      ^~~~~~~~~~~~~~~~
+00:56:55 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'ModificacionProducto':
+..\E-8-2.c:141:21: error: incompatible type for argument 1 of 'cargaDePROductos'
+    cargaDePROductos(listaProductos[i], tam);
+                     ^~~~~~~~~~~~~~
+..\E-8-2.c:68:6: note: expected 'eProductos * {aka struct <anonymous> *}' but argument is of type 'eProductos {aka struct <anonymous>}'
+ void cargaDePROductos(eProductos lista[], int tam);
+      ^~~~~~~~~~~~~~~~
+00:57:30 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+00:57:37 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+Info: Nothing to build for E-8-2
+Info: Nothing to build for E-8-2
+18:48:25 **** Rebuild of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+Info: Nothing to build for E-8-2
+19:00:18 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:00:24 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+19:01:38 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:01:42 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o 
+19:01:58 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+19:08:58 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+In file included from ..\B.c:12:0:
+..\B.h:15:27: error: unknown type name 'eProductos'
+ void inicializarProductos(eProductos lista[], int tam);
+                           ^~~~~~~~~~
+..\B.h:16:23: error: unknown type name 'eProductos'
+ void cargaDePROductos(eProductos lista[], int tam);
+                       ^~~~~~~~~~
+..\B.h:18:22: error: unknown type name 'eProductos'
+ void MostrarProducto(eProductos producto);
+                      ^~~~~~~~~~
+..\B.h:19:28: error: unknown type name 'eProductos'
+ void MostrarListaProductos(eProductos listaProductos[], int tam);
+                            ^~~~~~~~~~
+..\B.h:20:19: error: unknown type name 'eProductos'
+ void BajaProducto(eProductos listaProductos[], int tam);
+                   ^~~~~~~~~~
+..\B.h:21:27: error: unknown type name 'eProductos'
+ void ModificacionProducto(eProductos listaProductos[], int tam);
+                           ^~~~~~~~~~
+..\B.c:14:27: error: unknown type name 'eProductos'
+ void ModificacionProducto(eProductos listaProductos[], int tam)
+                           ^~~~~~~~~~
+..\B.c:35:19: error: unknown type name 'eProductos'
+ void BajaProducto(eProductos listaProductos[], int tam)
+                   ^~~~~~~~~~
+..\B.c:53:22: error: unknown type name 'eProductos'
+ void MostrarProducto(eProductos producto)
+                      ^~~~~~~~~~
+..\B.c:60:28: error: unknown type name 'eProductos'
+ void MostrarListaProductos(eProductos listaProductos[], int tam)
+                            ^~~~~~~~~~
+..\B.c:73:23: error: unknown type name 'eProductos'
+ void cargaDePROductos(eProductos lista[], int tam)
+                       ^~~~~~~~~~
+..\B.c:101:27: error: unknown type name 'eProductos'
+ void inicializarProductos(eProductos lista[], int tam)
+                           ^~~~~~~~~~
+19:15:12 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:36:32 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+..\eProductos.c:17:27: error: unknown type name 'eProductos'
+ void ModificacionProducto(eProductos listaProductos[], int tam)
+                           ^~~~~~~~~~
+..\eProductos.c:38:19: error: unknown type name 'eProductos'
+ void BajaProducto(eProductos listaProductos[], int tam)
+                   ^~~~~~~~~~
+..\eProductos.c:56:22: error: unknown type name 'eProductos'
+ void MostrarProducto(eProductos producto)
+                      ^~~~~~~~~~
+..\eProductos.c:63:28: error: unknown type name 'eProductos'
+ void MostrarListaProductos(eProductos listaProductos[], int tam)
+                            ^~~~~~~~~~
+..\eProductos.c:76:23: error: unknown type name 'eProductos'
+ void cargaDePROductos(eProductos lista[], int tam)
+                       ^~~~~~~~~~
+..\eProductos.c: In function 'PedirEntero':
+..\eProductos.c:98:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("%s", mensaje);
+  ^~~~~~
+..\eProductos.c:98:2: warning: incompatible implicit declaration of built-in function 'printf'
+..\eProductos.c:98:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\eProductos.c:99:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%d", &entero);
+  ^~~~~
+..\eProductos.c:99:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\eProductos.c:99:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+..\eProductos.c: At top level:
+..\eProductos.c:104:27: error: unknown type name 'eProductos'
+ void inicializarProductos(eProductos lista[], int tam)
+                           ^~~~~~~~~~
+19:37:09 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'main':
+..\E-8-2.c:63:2: error: unknown type name 'eProductos'
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+  ^~~~~~~~~~
+..\E-8-2.c:63:2: warning: braces around scalar initializer
+..\E-8-2.c:63:2: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:46: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                              ^~~~~~
+..\E-8-2.c:63:46: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:54: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                      ^
+..\E-8-2.c:63:54: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:57: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                         ^
+..\E-8-2.c:63:57: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:60: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                            ^~~~
+..\E-8-2.c:63:60: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:53:17: warning: excess elements in scalar initializer
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:63:66: note: in expansion of macro 'CARGADO'
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                  ^~~~~~~
+..\E-8-2.c:53:17: note: (near initialization for 'listaDeProductos[0]')
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:63:66: note: in expansion of macro 'CARGADO'
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                  ^~~~~~~
+..\E-8-2.c:63:2: warning: braces around scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+  ^~~~~~~~~~
+..\E-8-2.c:63:2: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:63:84: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                                    ^~~~~~~~
+..\E-8-2.c:63:84: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:63:94: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                                              ^
+..\E-8-2.c:63:94: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:63:97: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                                                 ^
+..\E-8-2.c:63:97: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:64:6: warning: excess elements in scalar initializer
+      1000, CARGADO } };
+      ^~~~
+..\E-8-2.c:64:6: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:53:17: warning: excess elements in scalar initializer
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:64:12: note: in expansion of macro 'CARGADO'
+      1000, CARGADO } };
+            ^~~~~~~
+..\E-8-2.c:53:17: note: (near initialization for 'listaDeProductos[1]')
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:64:12: note: in expansion of macro 'CARGADO'
+      1000, CARGADO } };
+            ^~~~~~~
+..\E-8-2.c:88:4: warning: implicit declaration of function 'cargaDePROductos' [-Wimplicit-function-declaration]
+    cargaDePROductos(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~
+..\E-8-2.c:91:4: warning: implicit declaration of function 'BajaProducto' [-Wimplicit-function-declaration]
+    BajaProducto(listaDeProductos, TAM);
+    ^~~~~~~~~~~~
+..\E-8-2.c:95:4: warning: implicit declaration of function 'ModificacionProducto' [-Wimplicit-function-declaration]
+    ModificacionProducto(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~~~~~
+..\E-8-2.c:98:4: warning: implicit declaration of function 'MostrarListaProductos' [-Wimplicit-function-declaration]
+    MostrarListaProductos(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~~~~~~
+19:37:18 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'main':
+..\E-8-2.c:63:2: error: unknown type name 'eProductos'
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+  ^~~~~~~~~~
+..\E-8-2.c:63:2: warning: braces around scalar initializer
+..\E-8-2.c:63:2: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:46: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                              ^~~~~~
+..\E-8-2.c:63:46: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:54: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                      ^
+..\E-8-2.c:63:54: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:57: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                         ^
+..\E-8-2.c:63:57: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:63:60: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                            ^~~~
+..\E-8-2.c:63:60: note: (near initialization for 'listaDeProductos[0]')
+..\E-8-2.c:53:17: warning: excess elements in scalar initializer
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:63:66: note: in expansion of macro 'CARGADO'
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                  ^~~~~~~
+..\E-8-2.c:53:17: note: (near initialization for 'listaDeProductos[0]')
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:63:66: note: in expansion of macro 'CARGADO'
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                  ^~~~~~~
+..\E-8-2.c:63:2: warning: braces around scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+  ^~~~~~~~~~
+..\E-8-2.c:63:2: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:63:84: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                                    ^~~~~~~~
+..\E-8-2.c:63:84: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:63:94: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                                              ^
+..\E-8-2.c:63:94: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:63:97: warning: excess elements in scalar initializer
+  eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+                                                                                                 ^
+..\E-8-2.c:63:97: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:64:6: warning: excess elements in scalar initializer
+      1000, CARGADO } };
+      ^~~~
+..\E-8-2.c:64:6: note: (near initialization for 'listaDeProductos[1]')
+..\E-8-2.c:53:17: warning: excess elements in scalar initializer
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:64:12: note: in expansion of macro 'CARGADO'
+      1000, CARGADO } };
+            ^~~~~~~
+..\E-8-2.c:53:17: note: (near initialization for 'listaDeProductos[1]')
+ #define CARGADO 1
+                 ^
+..\E-8-2.c:64:12: note: in expansion of macro 'CARGADO'
+      1000, CARGADO } };
+            ^~~~~~~
+..\E-8-2.c:88:4: warning: implicit declaration of function 'cargaDePROductos' [-Wimplicit-function-declaration]
+    cargaDePROductos(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~
+..\E-8-2.c:91:4: warning: implicit declaration of function 'BajaProducto' [-Wimplicit-function-declaration]
+    BajaProducto(listaDeProductos, TAM);
+    ^~~~~~~~~~~~
+..\E-8-2.c:95:4: warning: implicit declaration of function 'ModificacionProducto' [-Wimplicit-function-declaration]
+    ModificacionProducto(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~~~~~
+..\E-8-2.c:98:4: warning: implicit declaration of function 'MostrarListaProductos' [-Wimplicit-function-declaration]
+    MostrarListaProductos(listaDeProductos, TAM);
+    ^~~~~~~~~~~~~~~~~~~~~
+19:37:51 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+..\B.c: In function 'ValidarNumeroEntero':
+..\B.c:16:18: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  for (i = 0; i < strlen(numero); i++)
+                  ^~~~~~
+..\B.c:16:18: warning: incompatible implicit declaration of built-in function 'strlen'
+..\B.c:16:18: note: include '<string.h>' or provide a declaration of 'strlen'
+..\B.c:18:9: warning: implicit declaration of function 'isdigit' [-Wimplicit-function-declaration]
+   if (!(isdigit(numero[i]))) //5.55
+         ^~~~~~~
+..\B.c:22:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("error ingrese numero entero\n");
+    ^~~~~~
+..\B.c:22:4: warning: incompatible implicit declaration of built-in function 'printf'
+..\B.c:22:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\B.c: In function 'pedirCadena':
+..\B.c:38:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf(mensaje);
+  ^~~~~~
+..\B.c:38:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\B.c:39:2: warning: implicit declaration of function 'fflush' [-Wimplicit-function-declaration]
+  fflush(stdin);
+  ^~~~~~
+..\B.c:39:9: error: 'stdin' undeclared (first use in this function)
+  fflush(stdin);
+         ^~~~~
+..\B.c:39:9: note: each undeclared identifier is reported only once for each function it appears in
+..\B.c:40:2: warning: implicit declaration of function 'gets' [-Wimplicit-function-declaration]
+  gets(auxstring);
+  ^~~~
+..\B.c:43:9: warning: incompatible implicit declaration of built-in function 'strlen'
+  while (strlen(auxstring) > tam - 1)
+         ^~~~~~
+..\B.c:43:9: note: include '<string.h>' or provide a declaration of 'strlen'
+..\B.c:49:2: warning: implicit declaration of function 'strncpy' [-Wimplicit-function-declaration]
+  strncpy(cadena, auxstring, tam);
+  ^~~~~~~
+..\B.c:49:2: warning: incompatible implicit declaration of built-in function 'strncpy'
+..\B.c:49:2: note: include '<string.h>' or provide a declaration of 'strncpy'
+..\B.c: In function 'Pedirfloat':
+..\B.c:54:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf(mensaje);
+  ^~~~~~
+..\B.c:54:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+..\B.c:55:2: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+  scanf("%f", &flotante);
+  ^~~~~
+..\B.c:55:2: warning: incompatible implicit declaration of built-in function 'scanf'
+..\B.c:55:2: note: include '<stdio.h>' or provide a declaration of 'scanf'
+19:38:22 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+..\eProductos.c:22:27: error: unknown type name 'eProductos'
+ void ModificacionProducto(eProductos listaProductos[], int tam)
+                           ^~~~~~~~~~
+..\eProductos.c:43:19: error: unknown type name 'eProductos'
+ void BajaProducto(eProductos listaProductos[], int tam)
+                   ^~~~~~~~~~
+..\eProductos.c:61:22: error: unknown type name 'eProductos'
+ void MostrarProducto(eProductos producto)
+                      ^~~~~~~~~~
+..\eProductos.c:68:28: error: unknown type name 'eProductos'
+ void MostrarListaProductos(eProductos listaProductos[], int tam)
+                            ^~~~~~~~~~
+..\eProductos.c:81:23: error: unknown type name 'eProductos'
+ void cargaDePROductos(eProductos lista[], int tam)
+                       ^~~~~~~~~~
+..\eProductos.c:109:27: error: unknown type name 'eProductos'
+ void inicializarProductos(eProductos lista[], int tam)
+                           ^~~~~~~~~~
+19:39:06 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+..\eProductos.c: In function 'ModificacionProducto':
+..\eProductos.c:34:4: warning: implicit declaration of function 'pedirCadena' [-Wimplicit-function-declaration]
+    pedirCadena(listaProductos[i].descripcion, "ingrese descripcion", 50);
+    ^~~~~~~~~~~
+..\eProductos.c:36:31: warning: implicit declaration of function 'Pedirfloat' [-Wimplicit-function-declaration]
+    listaProductos[i].precio = Pedirfloat("ingrese precio");
+                               ^~~~~~~~~~
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+19:39:56 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
+19:40:08 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+19:41:31 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o B.o "..\\B.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
+19:42:40 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+19:42:57 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 

@@ -67,115 +67,115 @@ int PedirEntero(char mensaje[], int min, int max)
 
 	return entero;
 }
-/*
- void OrdenarAlumnosPorNombre(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
- {
 
- int auxEntero;
+void OrdenarAlumnosPorNombre(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
+{
 
- float auxFlotante;
- char auxstring[50];
+	int auxEntero;
 
- for (int i = 0; i < tam - 1; i++)
- {
- for (int j = i + 1; j < tam; j++)
- {
- if (strcmp(nombre[i], nombre[j]) < 0) //criterio de ordenamiento ordena de z-a por cadena
- {
- auxFlotante = nota[i];
- nota[i] = nota[j]; // intercambian valores
- nota[j] = auxFlotante;
+	float auxFlotante;
+	char auxstring[50];
 
- auxEntero = edad[i];
- edad[i] = edad[j]; // intercambian valores
- edad[j] = auxEntero;
+	for (int i = 0; i < tam - 1; i++)
+	{
+		for (int j = i + 1; j < tam; j++)
+		{
+			if (strcmp(nombre[i], nombre[j]) < 0) //criterio de ordenamiento ordena de z-a por cadena
+			{
+				auxFlotante = nota[i];
+				nota[i] = nota[j]; // intercambian valores
+				nota[j] = auxFlotante;
 
- auxEntero = legajo[i];
- legajo[i] = legajo[j]; // intercambian valores
- legajo[j] = auxEntero;
+				auxEntero = edad[i];
+				edad[i] = edad[j]; // intercambian valores
+				edad[j] = auxEntero;
 
- strcpy(auxstring, nombre[i]);
- strcpy(nombre[i], nombre[j]);
- strcpy(nombre[j], auxstring);
+				auxEntero = legajo[i];
+				legajo[i] = legajo[j]; // intercambian valores
+				legajo[j] = auxEntero;
 
- }
- }
- }
- }
- /// @param legajo
- /// @param nombre
- /// @param nota
- /// @param edad
- /// @param tam
- void OrdenarAlumnosPorNotas(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
- {
+				strcpy(auxstring, nombre[i]);
+				strcpy(nombre[i], nombre[j]);
+				strcpy(nombre[j], auxstring);
 
- int auxEntero;
- float auxFlotante;
- char auxstring[50];
- for (int i = 0; i < tam - 1; i++)
- {
- for (int j = i + 1; j < tam; j++)
- {
- if (nota[i] < nota[j]) //criterio de ordenamiento
- {
- auxFlotante = nota[i];
- nota[i] = nota[j]; // intercambian valores
- nota[j] = auxFlotante;
+			}
+		}
+	}
+}
+/// @param legajo
+/// @param nombre
+/// @param nota
+/// @param edad
+/// @param tam
+void OrdenarAlumnosPorNotas(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
+{
 
- auxEntero = edad[i];
- edad[i] = edad[j]; // intercambian valores
- edad[j] = auxEntero;
+	int auxEntero;
+	float auxFlotante;
+	char auxstring[50];
+	for (int i = 0; i < tam - 1; i++)
+	{
+		for (int j = i + 1; j < tam; j++)
+		{
+			if (nota[i] < nota[j]) //criterio de ordenamiento
+			{
+				auxFlotante = nota[i];
+				nota[i] = nota[j]; // intercambian valores
+				nota[j] = auxFlotante;
 
- auxEntero = legajo[i];
- legajo[i] = legajo[j]; // intercambian valores
- legajo[j] = auxEntero;
+				auxEntero = edad[i];
+				edad[i] = edad[j]; // intercambian valores
+				edad[j] = auxEntero;
 
- strcpy(auxstring, nombre[i]);
- strcpy(nombre[i], nombre[j]);
- strcpy(nombre[j], auxstring);
+				auxEntero = legajo[i];
+				legajo[i] = legajo[j]; // intercambian valores
+				legajo[j] = auxEntero;
 
- }
- }
- }
- }
+				strcpy(auxstring, nombre[i]);
+				strcpy(nombre[i], nombre[j]);
+				strcpy(nombre[j], auxstring);
 
- void mostarAlumnos(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
- {
- for (int i = 0; i < T; i++)
- {
- printf("%d %s %d %.2f\n ", legajo[i], nombre[i], edad[i], nota[i]);
+			}
+		}
+	}
+}
 
- }
- }
- void cargarAlumnos(int legajo, char nombre[][50], float nota[], int edad[], int tam)
- {
- for (int i = 0; i < tam; i++)77
- {
- //legajo[i] = PedirEntero("legajo");
- edad[i] = PedirEntero("edad", 0, 0);
- nota[i] = PedirFloat("nota", 0, 10);
+void mostarAlumnos(int legajo[], char nombre[][50], float nota[], int edad[], int tam)
+{
+	for (int i = 0; i < T; i++)
+	{
+		printf("%d %s %d %.2f\n ", legajo[i], nombre[i], edad[i], nota[i]);
 
- //getstring(nombre[i], "ingrese nombre", 50);
- }
- }
- int PedirEntero(char mensaje[], int min, int max)
- {
+	}
+}
+void cargarAlumnos(int legajo, char nombre[][50], float nota[], int edad[], int tam)
+{
+	for (int i = 0; i < tam; i++)77
+	{
+		//legajo[i] = PedirEntero("legajo");
+		edad[i] = PedirEntero("edad", 0, 0);
+		nota[i] = PedirFloat("nota", 0, 10);
 
- int entero;
- printf("%s", mensaje);
- scanf("%d", &entero);
- //entero = ValidarEntero(entero, min, max);
+		//getstring(nombre[i], "ingrese nombre", 50);
+	}
+}
+int PedirEntero(char mensaje[], int min, int max)
+{
 
- return entero;
- }
- float PedirFloat(char mensaje[], int min, int max)
- {
- float entero;
- printf("%s", mensaje);
- scanf("%f", &entero);
- //entero = ValidarEntero(entero, min, max);
+	int entero;
+	printf("%s", mensaje);
+	scanf("%d", &entero);
+	//entero = ValidarEntero(entero, min, max);
 
- return entero;
- }
- */
+	return entero;
+}
+float PedirFloat(char mensaje[], int min, int max)
+{
+	float entero;
+	printf("%s", mensaje);
+	scanf("%f", &entero);
+	//entero = ValidarEntero(entero, min, max);
+	
+	return entero;
+}
+*/

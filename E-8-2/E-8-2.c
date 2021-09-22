@@ -40,7 +40,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "Biblioteca-progrmacion1.h"
+#include "B.h"
+#include "eProductos.h"
 
 #define EEUU 1
 #define CHINA 2
@@ -52,26 +53,16 @@
 #define TAM 2
 #define CARGADO 1
 #define VACIO 0
-void pedirCadena(char cadena[], char mensaje[], int tam);
-float PedirNumeros(char mensaje[], float flotante);
-int validarDecimal(float flotante);
-int ValidarNumeroEntero(char numero[]);
-typedef struct
-{
-	int idProducto;
-	char descripcion[50];
-	int nacionalidad;
-	int tipo;
-	float precio;
-
-} eProductos;
-
+void OrdenarNumeros(eProductos lista[], int tam);
 int main(void)
 {
 	setbuf(stdout, NULL);
 	char validar[5];
 	int opcion;
 	int N;
+
+	eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
+					1000, CARGADO } };
 
 	do
 	{
@@ -95,16 +86,21 @@ int main(void)
 		switch (opcion)
 		{
 		case 1:
-
+			cargaDePROductos(listaDeProductos, TAM);
 			break;
 		case 2:
-			printf("22");
+			BajaProducto(listaDeProductos, TAM);
 			break;
 		case 3:
+			//MODIFICACIÓN
+			ModificacionProducto(listaDeProductos, TAM);
 			break;
 		case 4:
+			MostrarListaProductos(listaDeProductos, TAM);
 			break;
 		case 5:
+			//ordenar precio
+			OrdenarNumeros(listaDeProductos, TAM);
 			break;
 		case 6:
 			printf("66");
@@ -116,68 +112,23 @@ int main(void)
 
 	return 0;
 }
-int ValidarNumeroEntero(char numero[])
+void OrdenarNumeros(eProductos lista[], int tam)
 {
-	int bandera = 1;
 
-	int i;
+	float auxFlotante;
 
-	for (i = 0; i < strlen(numero); i++)
+	for (int i = 0; i < tam - 1; i++)
 	{
-		if (!(isdigit(numero[i]))) //5.55
-
+		for (int j = i + 1; j < tam; j++)
 		{
+			if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
+			{
+				auxFlotante = lista->precio[i];
+				lista->precio[i] = lista->precio[j]; // intercambian valores
+				lista->precio[j] = auxFlotante;
 
-			printf("error ingrese numero entero\n");
-
-			//	return 0;
-			bandera = 0;
-
+			}
 		}
-
 	}
-
-	return bandera;
-}
-void pedirCadena(char cadena[], char mensaje[], int tam) //int cantidadIntentos
-{
-
-	char auxstring[1000];
-
-	printf(mensaje);
-	fflush(stdin);
-	gets(auxstring);
-	//strncpy(nombre,25,aux)
-
-	while (strlen(auxstring) > tam - 1)
-	{
-		printf(" ERROR ingrese nombre");
-		fflush(stdin);
-		gets(auxstring);
-	}
-	strncpy(cadena, auxstring, 5);
-}
-float PedirNumeros(char mensaje[], float flotante)
-{
-
-	printf(mensaje);
-	scanf("%f", &flotante);
-	return flotante;
-}
-
-int validarDecimal(float flotante)
-{
-	int ent = flotante;
-	int N;
-
-	if (flotante - ent)
-	{
-		N = 0;
-	}
-	else
-	{
-		N = 1;
-	}
-	return N;
 }
 
