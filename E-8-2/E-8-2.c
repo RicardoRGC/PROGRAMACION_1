@@ -50,19 +50,20 @@
 #define MAC 2
 #define IPAD 3
 #define ACCESORIOS 4
-#define TAM 2
+#define TAM 4
 #define CARGADO 1
 #define VACIO 0
-void OrdenarNumeros(eProductos lista[], int tam);
+
 int main(void)
 {
 	setbuf(stdout, NULL);
 	char validar[5];
 	int opcion;
 	int N;
-
-	eProductos listaDeProductos[TAM] = { { 500, "riky", 1, 3, 1002, CARGADO }, { 501, "rikyTT", 2, 5,
-					1000, CARGADO } };
+	//InicializarListaProductos(listaDeProductos, TAM);
+	eProductos listaDeProductos[TAM] = { { 1, "Iphone 13 Pro", EEUU, IPHONE, 1000, CARGADO }, { 2,
+					"Ipad 5", CHINA, IPAD, 500, CARGADO }, { 3, "Mac Air Book", OTRO, MAC, 1200, CARGADO }, {
+					4, "Mag safe", EEUU, ACCESORIOS, 250, CARGADO } };
 
 	do
 	{
@@ -77,9 +78,9 @@ int main(void)
 							"6.LISTADO ordenado por descripción.\n"
 							"7.SALIR\n");
 
-			pedirCadena(validar, "ingrese opcion \n", 5);
+			pedirCadena(validar, "ingrese opcion \n", TAM);
 
-			N = ValidarNumeroEntero(validar);
+			N = ValidarCharNumeroEntero(validar, TAM);
 		}
 		while (N == 0);
 		opcion = atoi(validar);
@@ -101,6 +102,7 @@ int main(void)
 		case 5:
 			//ordenar precio
 			OrdenarNumeros(listaDeProductos, TAM);
+			MostrarListaProductos(listaDeProductos, TAM);
 			break;
 		case 6:
 			printf("66");
@@ -111,24 +113,5 @@ int main(void)
 	while (opcion != 7);
 
 	return 0;
-}
-void OrdenarNumeros(eProductos lista[], int tam)
-{
-
-	float auxFlotante;
-
-	for (int i = 0; i < tam - 1; i++)
-	{
-		for (int j = i + 1; j < tam; j++)
-		{
-			if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
-			{
-				auxFlotante = lista->precio[i];
-				lista->precio[i] = lista->precio[j]; // intercambian valores
-				lista->precio[j] = auxFlotante;
-
-			}
-		}
-	}
 }
 

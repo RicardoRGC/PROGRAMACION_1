@@ -620,3 +620,438 @@ gcc -o E-8-2.exe B.o E-8-2.o eProductos.o
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
 gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+20:27:15 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'OrdenarNumeros':
+..\E-8-2.c:127:21: error: subscripted value is neither array nor pointer nor vector
+    if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
+                     ^
+..\E-8-2.c:127:40: error: subscripted value is neither array nor pointer nor vector
+    if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
+                                        ^
+..\E-8-2.c:129:32: error: subscripted value is neither array nor pointer nor vector
+     auxFlotante = lista->precio[i];
+                                ^
+..\E-8-2.c:130:18: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[i] = lista->precio[j]; // intercambian valores
+                  ^
+..\E-8-2.c:130:37: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[i] = lista->precio[j]; // intercambian valores
+                                     ^
+..\E-8-2.c:131:18: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[j] = auxFlotante;
+                  ^
+..\E-8-2.c:133:34: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->idProducto[i];
+                                  ^
+..\E-8-2.c:134:22: error: subscripted value is neither array nor pointer nor vector
+     lista->idProducto[i] = lista->idProducto[j]; // intercambian valores
+                      ^
+..\E-8-2.c:134:45: error: subscripted value is neither array nor pointer nor vector
+     lista->idProducto[i] = lista->idProducto[j]; // intercambian valores
+                                             ^
+..\E-8-2.c:135:22: error: subscripted value is neither array nor pointer nor vector
+     lista->idProducto[j] = auxentero;
+                      ^
+..\E-8-2.c:137:36: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->nacionalidad[i];
+                                    ^
+..\E-8-2.c:138:24: error: subscripted value is neither array nor pointer nor vector
+     lista->nacionalidad[i] = lista->nacionalidad[j]; // intercambian valores
+                        ^
+..\E-8-2.c:138:49: error: subscripted value is neither array nor pointer nor vector
+     lista->nacionalidad[i] = lista->nacionalidad[j]; // intercambian valores
+                                                 ^
+..\E-8-2.c:139:24: error: subscripted value is neither array nor pointer nor vector
+     lista->nacionalidad[j] = auxentero;
+                        ^
+..\E-8-2.c:141:28: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->tipo[i];
+                            ^
+..\E-8-2.c:142:16: error: subscripted value is neither array nor pointer nor vector
+     lista->tipo[i] = lista->tipo[j]; // intercambian valores
+                ^
+..\E-8-2.c:142:33: error: subscripted value is neither array nor pointer nor vector
+     lista->tipo[i] = lista->tipo[j]; // intercambian valores
+                                 ^
+..\E-8-2.c:143:16: error: subscripted value is neither array nor pointer nor vector
+     lista->tipo[j] = auxentero;
+                ^
+..\E-8-2.c:145:30: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->estado[i];
+                              ^
+..\E-8-2.c:146:18: error: subscripted value is neither array nor pointer nor vector
+     lista->estado[i] = lista->estado[j]; // intercambian valores
+                  ^
+..\E-8-2.c:146:37: error: subscripted value is neither array nor pointer nor vector
+     lista->estado[i] = lista->estado[j]; // intercambian valores
+                                     ^
+..\E-8-2.c:147:18: error: subscripted value is neither array nor pointer nor vector
+     lista->estado[j] = auxentero;
+                  ^
+..\E-8-2.c:149:23: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(auxstring, lista->descripcion[i]);
+                       ^~~~~
+In file included from ..\E-8-2.c:41:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\E-8-2.c:150:12: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(lista->descripcion[i], lista->descripcion[j]);
+            ^~~~~
+In file included from ..\E-8-2.c:41:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\E-8-2.c:150:35: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(lista->descripcion[i], lista->descripcion[j]);
+                                   ^~~~~
+In file included from ..\E-8-2.c:41:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\E-8-2.c:151:12: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(lista->descripcion[j], auxstring);
+            ^~~~~
+In file included from ..\E-8-2.c:41:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+20:32:38 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+..\eProductos.c: In function 'OrdenarNumeros':
+..\eProductos.c:35:21: error: subscripted value is neither array nor pointer nor vector
+    if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
+                     ^
+..\eProductos.c:35:40: error: subscripted value is neither array nor pointer nor vector
+    if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
+                                        ^
+..\eProductos.c:37:32: error: subscripted value is neither array nor pointer nor vector
+     auxFlotante = lista->precio[i];
+                                ^
+..\eProductos.c:38:18: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[i] = lista->precio[j]; // intercambian valores
+                  ^
+..\eProductos.c:38:37: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[i] = lista->precio[j]; // intercambian valores
+                                     ^
+..\eProductos.c:39:18: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[j] = auxFlotante;
+                  ^
+..\eProductos.c:41:34: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->idProducto[i];
+                                  ^
+..\eProductos.c:42:22: error: subscripted value is neither array nor pointer nor vector
+     lista->idProducto[i] = lista->idProducto[j]; // intercambian valores
+                      ^
+..\eProductos.c:42:45: error: subscripted value is neither array nor pointer nor vector
+     lista->idProducto[i] = lista->idProducto[j]; // intercambian valores
+                                             ^
+..\eProductos.c:43:22: error: subscripted value is neither array nor pointer nor vector
+     lista->idProducto[j] = auxentero;
+                      ^
+..\eProductos.c:45:36: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->nacionalidad[i];
+                                    ^
+..\eProductos.c:46:24: error: subscripted value is neither array nor pointer nor vector
+     lista->nacionalidad[i] = lista->nacionalidad[j]; // intercambian valores
+                        ^
+..\eProductos.c:46:49: error: subscripted value is neither array nor pointer nor vector
+     lista->nacionalidad[i] = lista->nacionalidad[j]; // intercambian valores
+                                                 ^
+..\eProductos.c:47:24: error: subscripted value is neither array nor pointer nor vector
+     lista->nacionalidad[j] = auxentero;
+                        ^
+..\eProductos.c:49:28: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->tipo[i];
+                            ^
+..\eProductos.c:50:16: error: subscripted value is neither array nor pointer nor vector
+     lista->tipo[i] = lista->tipo[j]; // intercambian valores
+                ^
+..\eProductos.c:50:33: error: subscripted value is neither array nor pointer nor vector
+     lista->tipo[i] = lista->tipo[j]; // intercambian valores
+                                 ^
+..\eProductos.c:51:16: error: subscripted value is neither array nor pointer nor vector
+     lista->tipo[j] = auxentero;
+                ^
+..\eProductos.c:53:30: error: subscripted value is neither array nor pointer nor vector
+     auxentero = lista->estado[i];
+                              ^
+..\eProductos.c:54:18: error: subscripted value is neither array nor pointer nor vector
+     lista->estado[i] = lista->estado[j]; // intercambian valores
+                  ^
+..\eProductos.c:54:37: error: subscripted value is neither array nor pointer nor vector
+     lista->estado[i] = lista->estado[j]; // intercambian valores
+                                     ^
+..\eProductos.c:55:18: error: subscripted value is neither array nor pointer nor vector
+     lista->estado[j] = auxentero;
+                  ^
+..\eProductos.c:57:23: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(auxstring, lista->descripcion[i]);
+                       ^~~~~
+In file included from ..\eProductos.c:9:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\eProductos.c:58:12: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(lista->descripcion[i], lista->descripcion[j]);
+            ^~~~~
+In file included from ..\eProductos.c:9:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\eProductos.c:58:35: warning: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(lista->descripcion[i], lista->descripcion[j]);
+                                   ^~~~~
+In file included from ..\eProductos.c:9:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+..\eProductos.c:59:12: warning: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Wint-conversion]
+     strcpy(lista->descripcion[j], auxstring);
+            ^~~~~
+In file included from ..\eProductos.c:9:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'char'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+20:46:05 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+..\eProductos.c: In function 'OrdenarNumeros':
+..\eProductos.c:35:21: error: subscripted value is neither array nor pointer nor vector
+    if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
+                     ^
+..\eProductos.c:35:40: error: subscripted value is neither array nor pointer nor vector
+    if (lista->precio[i] < lista->precio[j]) //criterio de ordenamiento ordena de mayor a menor
+                                        ^
+..\eProductos.c:37:32: error: subscripted value is neither array nor pointer nor vector
+     auxFlotante = lista->precio[i];
+                                ^
+..\eProductos.c:38:18: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[i] = lista->precio[j]; // intercambian valores
+                  ^
+..\eProductos.c:38:37: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[i] = lista->precio[j]; // intercambian valores
+                                     ^
+..\eProductos.c:39:18: error: subscripted value is neither array nor pointer nor vector
+     lista->precio[j] = auxFlotante;
+                  ^
+..\eProductos.c:29:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[50];
+       ^~~~~~~~~
+..\eProductos.c:28:6: warning: unused variable 'auxentero' [-Wunused-variable]
+  int auxentero;
+      ^~~~~~~~~
+20:49:45 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+..\eProductos.c: In function 'OrdenarNumeros':
+..\eProductos.c:29:7: warning: unused variable 'auxstring' [-Wunused-variable]
+  char auxstring[50];
+       ^~~~~~~~~
+..\eProductos.c:28:6: warning: unused variable 'auxentero' [-Wunused-variable]
+  int auxentero;
+      ^~~~~~~~~
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:58:05 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+..\eProductos.c: In function 'OrdenarNumeros':
+..\eProductos.c:43:14: error: incompatible types when assigning to type 'eProductos {aka struct <anonymous>}' from type 'int'
+     lista[j] = auxentero;
+              ^
+20:58:23 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:58:29 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
+Info: Nothing to build for E-8-2
+Info: Nothing to build for E-8-2
+21:00:56 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:01:01 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:01:41 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:01:44 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:04:27 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:04:32 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:08:27 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:08:31 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
+21:12:56 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:13:35 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:13:52 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:14:17 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:14:33 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:15:00 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:15:28 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:15:52 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:16:11 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:16:43 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:17:09 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:17:35 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:17:55 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:19:12 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:24:20 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:24:24 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:28:16 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:28:20 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+21:28:47 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+21:28:50 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
+Info: Nothing to build for E-8-2
+Info: Nothing to build for E-8-2
+22:13:41 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:13:55 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
+22:17:22 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:17:28 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+22:18:10 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+..\E-8-2.c: In function 'main':
+..\E-8-2.c:63:28: error: 'listaDeProductos' undeclared (first use in this function)
+  InicializarListaProductos(listaDeProductos, TAM);
+                            ^~~~~~~~~~~~~~~~
+..\E-8-2.c:63:28: note: each undeclared identifier is reported only once for each function it appears in
+22:19:28 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:19:33 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
+22:49:06 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file E-8-2.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+22:49:14 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+22:52:12 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 

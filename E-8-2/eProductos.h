@@ -29,6 +29,9 @@ void ModificacionProducto(eProductos listaProductos[], int tam);
 void pedirCadena(char cadena[], char mensaje[], int tam);
 float Pedirfloat(char mensaje[]);
 int validarDecimal(float flotante);
-int ValidarNumeroEntero(char numero[]);
+int ValidarCharNumeroEntero(char numero[], int tam);
+void OrdenarNumeros(eProductos lista[], int tam);
+int estadoDeLista(eProductos lista[], int tam);
+void InicializarListaProductos(eProductos listaProductos[], int tam);
 
 #endif /* EPRODUCTOS_H_ */
