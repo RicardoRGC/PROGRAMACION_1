@@ -21,6 +21,49 @@
 #define TAM 5
 #define CARGADO 1
 #define VACIO 0
+void OrdenarPorCaracter(eProductos lista[], int tam)
+{
+
+	float auxFlotante;
+	int auxentero;
+	char auxstring[50];
+
+	for (int i = 0; i < tam - 1; i++)
+	{
+		for (int j = i + 1; j < tam; j++)
+		{
+			if (strcmp(lista[i].descripcion, lista[j].descripcion) > 0) //menor a mayor A-Z (<=Z-A)
+			{
+				auxFlotante = lista[i].precio;
+				lista[i].precio = lista[j].precio; // intercambian valores
+				lista[j].precio = auxFlotante;
+
+				auxentero = lista[i].idProducto;
+				lista[i].idProducto = lista[j].idProducto; // intercambian valores
+				lista[j].idProducto = auxentero;
+
+				auxentero = lista[i].nacionalidad;
+				lista[i].nacionalidad = lista[j].nacionalidad; // intercambian valores
+				lista[j].nacionalidad = auxentero;
+
+				auxentero = lista[i].tipo;
+				lista[i].tipo = lista[j].tipo; // intercambian valores
+				lista[j].tipo = auxentero;
+
+				auxentero = lista[i].estado;
+				lista[i].estado = lista[j].estado; // intercambian valores
+				lista[j].estado = auxentero;
+
+				strcpy(auxstring, lista[i].descripcion);
+				strcpy(lista[i].descripcion, lista[j].descripcion);
+				strcpy(lista[j].descripcion, auxstring);
+
+			}
+		}
+	}
+}
+/// @param lista
+/// @param tam
 void OrdenarNumeros(eProductos lista[], int tam)
 {
 
@@ -246,7 +289,7 @@ int validarDecimal(float flotante)
 {
 	int ent = flotante;
 	int N;
-
+	
 	if (flotante - ent)
 	{
 		N = 0;

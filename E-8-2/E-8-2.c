@@ -105,7 +105,8 @@ int main(void)
 			MostrarListaProductos(listaDeProductos, TAM);
 			break;
 		case 6:
-			printf("66");
+			OrdenarPorCaracter(listaDeProductos, TAM);
+			MostrarListaProductos(listaDeProductos, TAM);
 			break;
 
 		}

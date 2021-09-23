@@ -33,5 +33,6 @@ int ValidarCharNumeroEntero(char numero[], int tam);
 void OrdenarNumeros(eProductos lista[], int tam);
 int estadoDeLista(eProductos lista[], int tam);
 void InicializarListaProductos(eProductos listaProductos[], int tam);
+void OrdenarPorCaracter(eProductos lista[], int tam);
 
 #endif /* EPRODUCTOS_H_ */

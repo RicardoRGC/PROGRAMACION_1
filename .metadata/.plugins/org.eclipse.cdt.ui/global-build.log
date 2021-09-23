@@ -1055,3 +1055,9 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
 gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+09:10:18 **** Incremental Build of configuration Debug for project E-8-2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o eProductos.o "..\\eProductos.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o E-8-2.o "..\\E-8-2.c" 
+gcc -o E-8-2.exe B.o E-8-2.o eProductos.o 
+Info: Nothing to build for E-8-2
