@@ -1,9 +1,0 @@
-22:57:06 **** Incremental Build of configuration Debug for project E-3-5 ****
-make all 
-Cannot run program "make": Launching failed
-
-Error: Program "make" not found in PATH
-PATH=[C:/Users/gonza/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/gonza/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\WINDOWS\system32\WBEM;C:\WINDOWS\system32\WBEM;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\gonza\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\;C:\Users\gonza\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gonza\AppData\Roaming\npm;C:\Program Files\Git\cmd;C:\MinGW\bin;C:\Users\gonza\AppData\Local\Microsoft\WindowsApps;;C:\Users\gonza\AppData\Roaming\npm;C:\Users\gonza\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gonza\eclipse\cpp-2021-06\eclipse]
-
-22:57:06 Build Failed. 1 errors, 0 warnings. (took 95ms)
-
