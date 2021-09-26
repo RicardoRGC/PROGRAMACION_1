@@ -70,7 +70,7 @@ int main(void)
 		do
 		{
 
-			printf("1.ALTA\n"
+			printf("\n1.ALTA\n"
 							"2.BAJA\n"
 							"3.MODIFICACION\n"
 							"4 LISTADO Productos.\n"
@@ -78,7 +78,7 @@ int main(void)
 							"6.LISTADO ordenado por descripción.\n"
 							"7.SALIR\n");
 
-			pedirCadena(validar, "ingrese opcion \n", TAM);
+			pedirCadena(validar, " \n", TAM);
 
 			N = ValidarCharNumeroEntero(validar, TAM);
 		}
@@ -98,15 +98,18 @@ int main(void)
 			break;
 		case 4:
 			MostrarListaProductos(listaDeProductos, TAM);
+			system("pause");
 			break;
 		case 5:
 			//ordenar precio
 			OrdenarNumeros(listaDeProductos, TAM);
 			MostrarListaProductos(listaDeProductos, TAM);
+			system("pause");
 			break;
 		case 6:
 			OrdenarPorCaracter(listaDeProductos, TAM);
 			MostrarListaProductos(listaDeProductos, TAM);
+			system("pause");
 			break;
 
 		}
